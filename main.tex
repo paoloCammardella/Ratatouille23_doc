@@ -1,0 +1,33 @@
+\documentclass[14pt]{article}
+
+\usepackage[margin=3cm]{geometry}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{tcolorbox}
+\usepackage{multirow}
+\usepackage{float} 
+\usepackage{tabularx}
+\usepackage[colorlinks = true,
+            linkcolor = black,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\renewcommand{\contentsname}{Indice}
+
+% STEP 1: include the package
+\usepackage{img/uninaFrontespizio}
+
+\begin{document}
+
+\pagestyle{fancy}
+\cfoot{}
+\lhead{Ratatouille23}
+\rhead{Gruppo: INGSW2223\_N\_46}
+\lfoot{Paolo Cammardella}
+\rfoot{Pagina \thepage \ di \pageref{LastPage}}
+\include{Sezioni/FronteSpizio}
+\tableofcontents
+\include{Sezioni/Presentazione}
+\include{Sezioni/Analisi}
+\end{document}

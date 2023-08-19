@@ -1,0 +1,12 @@
+\contentsline {section}{\numberline {1}Introduzione}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Cosa contiene questa documentazione}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Tecnologie usate}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Analisi dei requisiti}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Requisiti funzionali}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Requisiti non funzionali}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Descrizione use-case}{4}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Creazione utenza}{4}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Personalizzazione menù}{6}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.3}Registrazione ordine}{7}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.4}Inserimento avviso}{8}{subsubsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.4}Individuazione del target}{8}{subsection.2.4}%
