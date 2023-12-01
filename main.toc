@@ -1,12 +1,25 @@
 \contentsline {section}{\numberline {1}Introduzione}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Cosa contiene questa documentazione}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Tecnologie usate}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Analisi dei requisiti}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Requisiti funzionali}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {1.2}Tecnologie utilizzate}{2}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Modello funzionale}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Requisiti del software}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Requisiti funzionali}{3}{subsubsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.2}Requisiti non funzionali}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Descrizione use-case}{4}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Creazione utenza}{4}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Personalizzazione menù}{6}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Registrazione ordine}{7}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}Inserimento avviso}{8}{subsubsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.4}Individuazione del target}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.3}Requisiti di dominio}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Descrizione use-case}{4}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Use-case generale}{4}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Creazione piatto}{5}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Eliminazione piatto}{5}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Creazione ordinazione}{6}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.5}Creazione notifica}{7}{subsubsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.5}Tabelle cockburn}{8}{subsection.2.5}%
+\contentsline {paragraph}{Cosa sono?}{8}{section*.2}%
+\contentsline {subsubsection}{\numberline {2.5.1}Creazione Ordinazione}{8}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Eliminazione piatto}{9}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Creazione piatto}{9}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Creazione notifica}{10}{subsubsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.6}Mock-Up}{11}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Creazione piatto}{11}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Eliminazione piatto}{11}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Creazione ordinazione}{11}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}Creazione notifica}{11}{subsubsection.2.6.4}%

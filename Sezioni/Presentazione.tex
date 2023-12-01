@@ -1,5 +1,5 @@
 \section{Introduzione}
-Ratatouille23\texttrademark\ è un software sviluppato e progettato dal gruppo INGSW2223\_N\_ per conto dalla società SoftEngUniNA\texttrademark. \newline
+Ratatouille23\texttrademark\ è un software sviluppato e progettato dal gruppo INGSW2223\_N\_46 per conto della società SoftEngUniNA\texttrademark. \newline
 Gli sviluppatori si prendono carico della verifica dei moduli software necessari al corretto funzionamento di tale sistema.
 Ratatouille23\texttrademark\ è un software che offre il supporto alla gestione di attività di
 ristorazione.\newline
@@ -14,15 +14,22 @@ Questa documentazione contiene tutte le informazioni necessarie a comprendere il
     \item Definizione di un piano di testing e valutazione sul campo dell’usabilità.
 \end{itemize}
 
-\subsection{Tecnologie usate}
+\subsection{Tecnologie utilizzate}
 Lo sviluppo del software Ratatouille23\texttrademark \ è avvenuto tramite:
 \begin{itemize}
     \item \textbf{Client}:
           \begin{itemize}
               \item Android con linguaggio object oriented (Java).
-              \item Retrofit.
+              \item Retrofit: richieste HTTP lato android.
           \end{itemize}
-    \item \textbf{Server}: Framework Java Spring boot.
+    \item \textbf{Server}:
+          \begin{itemize}
+              \item Framework Java Spring boot.
+              \item RestTemplate.
+          \end{itemize}
+    \item \textbf{Database}: PostgreSQL.
     \item \textbf{Testing}: Suite JUnit.
 \end{itemize}
-Il tutto è stato poi diviso in docker separati e messi in cloud tramite AWS in modo da permetterne l'utilizzi al difuori della rete locale.
+Il tutto è affiancato tecnologie allo stato dell'arte quali \textit{Docker} per separare in \textit{container} back-end e database, e servizi di \textit{Cloud Computing} come \textit{AWS},
+al fine di massimizzare la scalabilità del sistema in vista di un possibile repentino aumento del numero degli utenti nelle fasi
+iniziali di rilascio al pubblico.
