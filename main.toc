@@ -14,12 +14,12 @@
 \contentsline {subsubsection}{\numberline {2.4.5}Creazione notifica}{7}{subsubsection.2.4.5}%
 \contentsline {subsection}{\numberline {2.5}Tabelle cockburn}{8}{subsection.2.5}%
 \contentsline {paragraph}{Cosa sono?}{8}{section*.2}%
-\contentsline {subsubsection}{\numberline {2.5.1}Creazione Ordinazione}{8}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.1}Creazione ordinazione}{8}{subsubsection.2.5.1}%
 \contentsline {subsubsection}{\numberline {2.5.2}Eliminazione piatto}{9}{subsubsection.2.5.2}%
 \contentsline {subsubsection}{\numberline {2.5.3}Creazione piatto}{9}{subsubsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.4}Creazione notifica}{10}{subsubsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.6}Mock-Up}{11}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}Creazione piatto}{11}{subsubsection.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.6.2}Eliminazione piatto}{11}{subsubsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.3}Creazione ordinazione}{11}{subsubsection.2.6.3}%
-\contentsline {subsubsection}{\numberline {2.6.4}Creazione notifica}{11}{subsubsection.2.6.4}%
+\contentsline {subsubsection}{\numberline {2.5.4}Creazione notifica}{9}{subsubsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.6}Mock-Up}{10}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Creazione ordinazione}{11}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Eliminazione piatto}{14}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Creazione piatto}{15}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}Creazione notifica}{15}{subsubsection.2.6.4}%

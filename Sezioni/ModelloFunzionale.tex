@@ -77,35 +77,38 @@ La creazione di un avviso (notifica), è un aspetto fondamentale del software in
 Ci è stato richiesto di presentare, tra i casi d'uso assegnati, quattro casi
 specifici a scelta descrivendoli tramite \textbf{tabelle di Cockburn}.
 \paragraph{Cosa sono?} Le tabelle di Cockburn (create da \textit{Alistair Cockburn}, dal quale prendono il nome) sono un formalismo di rappresentazione dei casi d'uso.\\
-La politica adotta la rappresentazione di un Main scenario nella quale uno o più attori interagiscono
+Sono la rappresentazione di un main scenario (nel nostro primo caso la creazione di un'ordinazione) nel quale uno o più attori interagiscono
 tra loro attraverso l'invocazione di trigger e descrivendo (in formato tabellare) gli eventi.
 \\
 \\Per garantire una certa corenza al committente e una comprensione a tutto tondo abbiamo scelto gli stessi casi esplorati nella presentazione dei casi d'uso.
-\subsubsection{Creazione Ordinazione}
+\subsubsection{Creazione ordinazione}
+
 \begin{table}[H]
   \def\arraystretch{1.5}
   \begin{tabularx}{\linewidth}{|l|X|X|X|}
-    \hline \textbf{Use Case \#1}           & \multicolumn{3} {l|}{\textbf{Creazione ordinazione}}                                                                                                      \\ \hline \textbf{Goal in
-    Context}                               & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{                                                                         %
-    L'addetto alla sala vuole creare una nuova ordinazione per un tavolo}                                                                                                                              \\
-    \hline \textbf{Preconditions}          &
-    \multicolumn{3}{l|}{L'addetto alla sala deve essersi autenticato correttamente}                                                                                                                    \\
-    \hline \textbf{Success End Conditions} &
-    \multicolumn{3}{l|}{La nuova ordinazione è stata creata}                                                                                                                                           \\
-    \hline \textbf{Failed End Conditions}  &
-    \multicolumn{3}{l|}{Le informazioni inserite non sono valide}                                                                                                                                      \\
-    \hline \textbf{Primary Actor}          &
-    \multicolumn{3}{l|}{Utente autenticato}                                                                                                                                                            \\
-    \hline \textbf{Trigger}                & \multicolumn{3}{l|}{Pressione del tasto "crea ordinazione"}                                                                                               \\
+    \hline Use Case \#1                      & \multicolumn{3} {l|}{Creazione ordinazione}                                                                                                                                                         \\ \hline Goal in
+    Context                                  & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{Si vuole creare una nuova ordinazione}                                                                             \\
+    \hline Preconditions                     &
+    \multicolumn{3}{l|}{L'utente deve essere autenticato correttamente ed in \textbf{M2}}                                                                                                                                                          \\
+    \hline Success End Conditions            &
+    \multicolumn{3}{l|}{L'ordinazione è stata creata}                                                                                                                                                                                              \\
+    \hline Failed End Conditions             &
+    \multicolumn{3}{l|}{L'ordinazione non è stata creata}                                                                                                                                                                                          \\
+    \hline Primary Actor                     &
+    \multicolumn{3}{l|}{Utente autenticato}                                                                                                                                                                                                        \\
+    \hline Trigger                           & \multicolumn{3}{l|}{L'utente autenticato preme il tasto "crea ordinazione"}                                                                                                                         \\
 
-    \hline \multirow{2}{*}{\textbf{Description}}
-                                           & \textbf{Step}                                                                     & \textbf{Addetto sala}        & \textbf{Server}                        \\
-    \cline{2-4}                            & 1                                                                                 & Sceglie il tavolo            &                                        \\
-    \cline{2-4}                            & 2                                                                                 & Sceglie i piatti da inserire &                                        \\
-    \cline{2-4}                            & 3                                                                                 & Conferma l'ordine            & Verifica esistenza del tavolo          \\
-    \cline{2-4}                            & 4                                                                                 &                              & Verifica esistenza dei piatti inseriti \\
-
-    \cline{2-4}                            & 5                                                                                 &                              & Registra ordine                        \\
+    \hline \multirow{2}{*}{Description}      & Step                                                                                                                    & Utente autenticato             & Sistema                                  \\
+    \cline{2-4}                              & 1                                                                                                                       & Preme "Aggiungi ordinazione"   &                                          \\
+    \cline{2-4}                              & 2                                                                                                                       &                                & Mostra M3                                \\
+    \cline{2-4}                              & 3                                                                                                                       & Seleziona i piatti da inserire &                                          \\
+    \cline{2-4}                              & 4                                                                                                                       & Conferma l'ordine              &                                          \\
+    \cline{2-4}                              & 5                                                                                                                       &                                & Chiude M3                                \\
+    \cline{2-4}                              & 6                                                                                                                       &                                & Mostra messaggio di successo             \\
+    \hline \multirow{2}{*}{Extensions\#1: }  & Step                                                                                                                    & Utente autenticato             & Sistema                                  \\
+    \cline{2-4}Categoria o piatto non validi & 6.1                                                                                                                     &                                & Mostra messaggio d'errore                \\
+    \hline \multirow{2}{*}{Extensions\#2: }  & Step                                                                                                                    & Utente autenticato             & Sistema                                  \\
+    \cline{2-4} Impossibile connettersi      & 6.2                                                                                                                     &                                & Mostra messaggio "Errore di connessione" \\
     \hline
   \end{tabularx}
 \end{table}
@@ -113,80 +116,35 @@ tra loro attraverso l'invocazione di trigger e descrivendo (in formato tabellare
 \begin{table}[H]
   \def\arraystretch{1.5}
   \begin{tabularx}{\linewidth}{|l|X|X|X|}
-    \hline \textbf{Use Case \#2}                 & \multicolumn{3} {l|}{\textbf{Eliminazione piatto}}                                                                                       \\ \hline \textbf{Goal in
-    Context}                                     & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{                                                        %
-    L'utente vuole eliminare un piatto dal menù}                                                                                                                                            \\
-    \hline \textbf{Preconditions}                &
-    \multicolumn{3}{l|}{L'utente è autenticato correttamente ed ha i permessi}                                                                                                              \\
-    \hline \textbf{Success End Conditions}       &
-    \multicolumn{3}{l|}{Il piatto è stato eliminato}                                                                                                                                        \\
-    \hline \textbf{Failed End Conditions}        &
-    \multicolumn{3}{l|}{Il piatto che ha provato ad eliminare non è valido}                                                                                                                 \\
-    \hline \textbf{Primary Actor}                &
-    \multicolumn{3}{l|}{Amministratore/supervisore}                                                                                                                                         \\
-    \hline \textbf{Trigger}                      & \multicolumn{3}{l|}{Pressione tasto "elimina piatto"}                                                                                    \\
+    \hline Use Case \#2                     & \multicolumn{3} {l|}{Eliminazione piatto}                                                                                                                                                     \\ \hline Goal in
+    Context                                 & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{L'utente vuole eliminare un piatto dal menù}                                                                 \\
+    \hline Preconditions                    &
+    \multicolumn{3}{l|}{L'utente deve essere autenticato correttamente ed in \textbf{M4}}                                                                                                                                      \\
+    \hline Success End Conditions           &
+    \multicolumn{3}{l|}{Il piatto è stato eliminato}                                                                                                                                                                                        \\
+    \hline Failed End Conditions            &
+    \multicolumn{3}{l|}{Il piatto non è stato eliminato}                                                                                                                                                                                    \\
+    \hline Primary Actor                    &
+    \multicolumn{3}{l|}{Utente autenticato}                                                                                                                                                                                                 \\
+    \hline Trigger                          & \multicolumn{3}{l|}{L'utente autenticato preme il tasto "elimina" sul piatto desiderato}                                                                                                      \\
 
-    \hline \multirow{2}{*}{\textbf{Description}} & \textbf{Step}                                                                     &
-    \textbf{Client}                              & \textbf{Server}                                                                                                                          \\
-    \cline{2-4}                                  & 1                                                                                 & Seleziona il piatto da eliminare &                   \\
-    \cline{2-4}                                  & 2                                                                                 & Apertura dialog di conferma      &                   \\
-    \cline{2-4}                                  & 3                                                                                 & Conferma l'eliminazione          &                   \\
-    \cline{2-4}                                  & 4                                                                                 &                                  & Elimina il piatto \\
+    \hline \multirow{2}{*}{Description}     & Step                                                                                                                          & Utente autenticato & Sistema                                  \\
+    \cline{2-4}                             & 1                                                                                                                             &                    & Mostra M5                                \\
+    \cline{2-4}                             & 2                                                                                                                             & Clicca "ELIMINA"   &                                          \\
+    \cline{2-4}                             & 3                                                                                                                             &                    & chiude M5                                \\
+    \cline{2-4}                             & 4                                                                                                                             &                    & Mostra messaggio di successo             \\
+    \hline \multirow{2}{*}{Extensions\#1: } & Step                                                                                                                          & Utente autenticato & Sistema                                  \\
+    \cline{2-4}L'utente clicca "INDIETRO"   & 2.1                                                                                                                           & Clicca "INDIETRO"  &                                          \\
+    \cline{2-4}                             & 3.1                                                                                                                           &                    & Chiude M5                                \\
+    \hline \multirow{2}{*}{Extensions\#2: } & Step                                                                                                                          & Utente autenticato & Sistema                                  \\
+    \cline{2-4} Impossibile connettersi     & 4.2                                                                                                                           &                    & Mostra messaggio "Errore di connessione" \\
     \hline
   \end{tabularx}
 \end{table}
 
 \subsubsection{Creazione piatto}
-\begin{table}[H]
-  \def\arraystretch{1.5}
-  \begin{tabularx}{\linewidth}{|l|X|X|X|}
-    \hline \textbf{Use Case \#3}                 & \multicolumn{3} {l|}{\textbf{Creazione piatto}}                                                                                                                                                                                            \\ \hline \textbf{Goal in
-    Context}                                     & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{L'utente vuole creare un piatto da aggiungere al menù}                                                                                                    \\
-    \hline \textbf{Preconditions}                &
-    \multicolumn{3}{l|}{L'utente è collegato correttamente ed ha i permessi necessari}                                                                                                                                                                                                        \\
-    \hline \textbf{Success End Conditions}       &
-    \multicolumn{3}{l|}{Il piatto è stato creato}                                                                                                                                                                                                                                             \\
-    \hline \textbf{Failed End Conditions}        &
-    \multicolumn{3}{l|}{Le informazioni inserite sono già presenti o non valide}                                                                                                                                                                                                              \\
-    \hline \textbf{Primary Actor}                &
-    \multicolumn{3}{l|}{Amministratore/supervisore}                                                                                                                                                                                                                                           \\
-    \hline \textbf{Trigger}                      & \multicolumn{3}{l|}{Apertura schermata creazione piatto}                                                                                                                                                                                   \\
 
-    \hline \multirow{2}{*}{\textbf{Description}} & \textbf{Step}                                                                                                                           &
-    \textbf{Client}                              & \textbf{Server}                                                                                                                                                                                                                            \\
-    \cline{2-4}                                  & 1                                                                                                                                       & Inserisce i dati richiesti per la creazione &                                                    \\
-    \cline{2-4}                                  & 2                                                                                                                                       & Clicca tasto "crea piatto"                  &                                                    \\
-    \cline{2-4}                                  & 3                                                                                                                                       &                                             & Verifica la possibilità della creazione del piatto \\
-    \cline{2-4}                                  & 4                                                                                                                                       &                                             & Salva il piatto                                    \\
-    \hline
-  \end{tabularx}
-\end{table}
 \subsubsection{Creazione notifica}
-\begin{table}[H]
-  \def\arraystretch{1.5}
-  \begin{tabularx}{\linewidth}{|l|X|X|X|}
-    \hline \textbf{Use Case \#4}                 & \multicolumn{3} {l|}{\textbf{Creazione notifica}}                                                                                                                           \\ \hline \textbf{Goal in
-    Context}                                     & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{                                                                                           %
-    L'utente vuole creare una notifica da inviare ai dipendenti}                                                                                                                                                               \\
-    \hline \textbf{Preconditions}                &
-    \multicolumn{3}{l|}{L'utente è autenticato correttamente ed ha i permessi}                                                                                                                                                 \\
-    \hline \textbf{Success End Conditions}       &
-    \multicolumn{3}{l|}{La notifica è stata creata}                                                                                                                                                                            \\
-    \hline \textbf{Failed End Conditions}        &
-    \multicolumn{3}{l|}{La notifica con la stessa data è già presente}                                                                                                                                                         \\
-    \hline \textbf{Primary Actor}                &
-    \multicolumn{3}{l|}{Amministratore/supervisore}                                                                                                                                                                            \\
-    \hline \textbf{Trigger}                      & \multicolumn{3}{l|}{Pressione tasto "crea notifica"}                                                                                                                        \\
-
-    \hline \multirow{2}{*}{\textbf{Description}} & \textbf{Step}                                                                     &
-    \textbf{Client}                              & \textbf{Server}                                                                                                                                                             \\
-    \cline{2-4}                                  & 1                                                                                 & Inserisce titolo e testo della notifica    &                                            \\
-    \cline{2-4}                                  & 2                                                                                 & Preme il tasto per confermare la creazione & Verifica se la notifica non è già presente \\
-    \cline{2-4}                                  & 3                                                                                 &                                            & Salva la notifica                          \\
-    \hline
-  \end{tabularx}
-
-\end{table}
 \newpage
 \subsection{Mock-Up}
 Un mock-up , è una realizzazione a scopo illustrativo o meramente espositivo, di un oggetto o un sistema, senza le complete funzioni
@@ -197,7 +155,41 @@ reale oppure variata.
 \end{center}
 La versione del mock-up qui sopra rappresenta le schermate principali dell'applicazione. Nella realizzazione di quest'applicazione c'è stato uno studio del colore e dell'usabilità, con una palette creata appositamente per non stancare gli occhi e rendere il tutto più "vicino" al cibo possibile.\\
 Di seguito andremo a visualizzare i mock-up dei metodi scelti dal team.
-\subsubsection{Creazione piatto}
-\subsubsection{Eliminazione piatto}
+\newpage
 \subsubsection{Creazione ordinazione}
+Questa schermata rappresenta l'elenco dei tavoli già presenti nel database, quando verrà selezionato un tavolo premendoci sopra, il sistema aprirà \textbf{M2}.
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{img/mock-up/tables.png}
+  \caption{pagina dei tavoli}
+\end{figure}\newpage
+\begin{figure}[H]
+  Una volta aperta \textbf{M2} ci verrà presentato l'elenco delle portate del tavolo selezionato (nel nostro caso, il tavolo 1). Quando l'utente cliccherà il pulsante "Aggiungi ordinazione" il sistema aprirà \textbf{M3}.
+  \centering
+  \includegraphics[scale=0.6]{img/mock-up/Table_content.png}
+  \caption{Contenuto del tavolo n°1.}
+\end{figure}\newpage
+Ora che ci troviamo in \textbf{M3} potremo usare i due spinner (categoria e piatto) per selezionare il piatto che desideriamo aggiungere all'ordinazione e quando saremo soddisfatti potremo confermarlo.
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{img/mock-up/New_order.png}
+  \caption{Nuova ordinazione per il tavolo n°1.}
+\end{figure}
+\newpage
+\subsubsection{Eliminazione piatto}
+La schermata riportata qui sotto mostra il menù del ristorante con la possibilità di eliminare i piatti da esso. Qualora l'utente dovesse cliccare "ELIMINA" su uno dei piatti si aprirà \textbf{M5}.
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{img/mock-up/Dish_deletion.png}
+  \caption{Menù ristorante con piatti da eliminare.}
+\end{figure}
+\newpage
+In questa schermata l'utente potrà confermare l'eliminazione del piatto oppure tornare indietro, annullando così l'eliminazione.
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{img/mock-up/Confirm_dish_deletion.png}
+  \caption{Conferma eliminazione piatto.}
+\end{figure} 
+\subsubsection{Creazione piatto}
+
 \subsubsection{Creazione notifica}

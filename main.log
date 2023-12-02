@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.4)  1 DEC 2023 15:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.4)  2 DEC 2023 19:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -576,7 +576,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.31 \include{Sezioni/Presentazione}
+l.33 \include{Sezioni/Presentazione}
                                      [1
 
 
@@ -652,60 +652,95 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--84
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 136--136
-[]|\OT1/cmr/m/n/10 Apertura di-a-log di
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]|\OT1/cmr/m/n/10 Mostra mes-sag-gio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--136
-[]|\OT1/cmr/m/n/10 Conferma
- []
-
-[8]
-Underfull \hbox (badness 3849) in paragraph at lines 162--162
-\OT1/cmr/m/n/10 della creazione del
+Underfull \hbox (badness 10000) in paragraph at lines 113--113
+[]|\OT1/cmr/m/n/10 Mostra mes-sag-gio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
-[]|\OT1/cmr/m/n/10 Inserisce titolo e
+Underfull \hbox (badness 1817) in paragraph at lines 113--113
+\OT1/cmr/m/n/10 "Er-rore di con-nes-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
-[]|\OT1/cmr/m/n/10 Preme il tasto
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[]|\OT1/cmr/m/n/10 Clicca "IN-DI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
-\OT1/cmr/m/n/10 per con-fer-mare la
+Underfull \hbox (badness 10000) in paragraph at lines 142--142
+[]|\OT1/cmr/m/n/10 Mostra mes-sag-gio
  []
 
-[9] [10]
-<img/Mock-up.doc.png, id=205, 1477.52pt x 1927.2pt>
+
+Underfull \hbox (badness 1454) in paragraph at lines 142--142
+\OT1/cmr/m/n/10 "Er-rore di con-nes-
+ []
+
+
+Overfull \hbox (0.87228pt too wide) in alignment at lines 142--142
+[][][][] 
+ []
+
+[8] [9]
+<img/Mock-up.doc.png, id=200, 1477.52pt x 1927.2pt>
 File: img/Mock-up.doc.png Graphic file (type png)
 <use img/Mock-up.doc.png>
-Package pdftex.def Info: img/Mock-up.doc.png  used on input line 196.
+Package pdftex.def Info: img/Mock-up.doc.png  used on input line 154.
 (pdftex.def)             Requested size: 295.49876pt x 385.43318pt.
-) [11 <./img/Mock-up.doc.png>] 
+ [10 <./img/Mock-up.doc.png>]
+<img/mock-up/tables.png, id=208, 361.35pt x 803.0pt>
+File: img/mock-up/tables.png Graphic file (type png)
+<use img/mock-up/tables.png>
+Package pdftex.def Info: img/mock-up/tables.png  used on input line 163.
+(pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
+ [11 <./img/mock-up/tables.png>]
+<img/mock-up/Table_content.png, id=216, 361.35pt x 803.0pt>
+File: img/mock-up/Table_content.png Graphic file (type png)
+<use img/mock-up/Table_content.png>
+Package pdftex.def Info: img/mock-up/Table_content.png  used on input line 169.
+(pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
+ [12 <./img/mock-up/Table_content.png>]
+<img/mock-up/New_order.png, id=225, 361.35pt x 803.0pt>
+File: img/mock-up/New_order.png Graphic file (type png)
+<use img/mock-up/New_order.png>
+Package pdftex.def Info: img/mock-up/New_order.png  used on input line 175.
+(pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
+ [13 <./img/mock-up/New_order.png>]
+<img/mock-up/Dish_deletion.png, id=233, 361.35pt x 803.0pt>
+File: img/mock-up/Dish_deletion.png Graphic file (type png)
+<use img/mock-up/Dish_deletion.png>
+Package pdftex.def Info: img/mock-up/Dish_deletion.png  used on input line 183.
+(pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
+ [14 <./img/mock-up/Dish_deletion.png>]
+<img/mock-up/Confirm_dish_deletion.png, id=241, 361.35pt x 803.0pt>
+File: img/mock-up/Confirm_dish_deletion.png Graphic file (type png)
+<use img/mock-up/Confirm_dish_deletion.png>
+Package pdftex.def Info: img/mock-up/Confirm_dish_deletion.png  used on input line 190.
+(pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
+) [15 <./img/mock-up/Confirm_dish_deletion.png>] 
 AED: lastpage setting LastPage
 (./main.aux (./Sezioni/FronteSpizio.aux) (./Sezioni/Presentazione.aux) (./Sezioni/ModelloFunzionale.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8D37ACAB12C30D47EF51F1B0E1F69F44;3846.
+(rerunfilecheck)             Checksum: EBB1A43190EDD0B65930DD7D8946187A;3846.
  ) 
 Here is how much of TeX's memory you used:
- 22423 strings out of 478287
- 436859 string characters out of 5849290
- 716193 words of memory out of 5000000
- 40198 multiletter control sequences out of 15000+600000
+ 22473 strings out of 478287
+ 438087 string characters out of 5849290
+ 718193 words of memory out of 5000000
+ 40233 multiletter control sequences out of 15000+600000
  472660 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,12n,104p,841b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (12 pages, 740661 bytes).
+Output written on main.pdf (16 pages, 891542 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
