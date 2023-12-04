@@ -144,7 +144,7 @@ tra loro attraverso l'invocazione di trigger e descrivendo (in formato tabellare
 \begin{table}[H]
   \def\arraystretch{1.5}
   \begin{tabularx}{\linewidth}{|l|X|X|X|}
-    \hline Use Case \#3                    & \multicolumn{3} {l|}{Creazione piatto}                                                                                                                                               \\ \hline Goal in
+    \hline Use Case \#3                     & \multicolumn{3} {l|}{Creazione piatto}                                                                                                                                               \\ \hline Goal in
     Context                                 & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{L'utente vuole creare un piatto}                                                                    \\
     \hline Preconditions                    &
     \multicolumn{3}{l|}{L'utente deve essere autenticato correttamente ed in \textbf{M6}}                                                                                                                                          \\
@@ -307,13 +307,13 @@ Potremmo aggiungere una sezione con dei percorsi culinari, studiati in precedenz
 \paragraph{Lucia Zhang}
 La prima user persona è stata utilizzata per raccoglire il target di utenti nella fascia compresa tra i 25-35 anni, che hanno un'alta competenza con la tecnologia e che sono già avviati, nel mondo del lavoro.
 \renewcommand{\figurename}{}
-  \renewcommand{\thefigure}{Fig.\arabic{figure}}
+\renewcommand{\thefigure}{Fig.\arabic{figure}}
 \setcounter{figure}{\getrefnumber{1}}
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.25]{img/personas/Lucia_zhang_persona.png}
   \caption{User persona n.1.}
-\end{figure} 
+\end{figure}
 
 \newpage
 \paragraph{Stefano Iamunno}
@@ -322,7 +322,7 @@ La seconda user persona è stata utilizzata per raccoglire il target di utenti n
   \centering
   \includegraphics[scale=0.25]{img/personas/Stefano_iamunno_persona.png}
   \caption{User persona n.2.}
-\end{figure} 
+\end{figure}
 \newpage
 \paragraph{Maria colombo}
 La terza user persona è stata utilizzata per raccoglire il target di utenti nella fascia d'età compresa tra i 35-65 anni, che hanno una bassa competenza tecnologica ma con una vasta esperienza nel mondo del lavoro. Sono utenti che con la loro esperienza lavorativa possono assumere pressochè qualsiasi ruolo all'interno di un'attività di ristorazione.
@@ -331,8 +331,8 @@ La terza user persona è stata utilizzata per raccoglire il target di utenti nel
   \centering
   \includegraphics[scale=0.25]{img/personas/Maria_colombo_persona.png}
   \caption{User persona n.3.}
-\end{figure}\newpage 
-\subsection{Valutazione dell'usabilità a priori} 
+\end{figure}\newpage
+\subsection{Valutazione dell'usabilità a priori}
 
 Per quanto riguarda la valutazione dell'usabilità a priori abbiamo utilizzato le modalità che avevamo a disposizione. \\
 In particolare, per ottenere una valutazione dell'usabilità a priori oggettiva e corretta, abbiamo speso molto tempo nella fase di progettazione,  della progettazione UI
@@ -342,10 +342,91 @@ e delle funzionalità, in modo da poter riprodurre dei prototipi della nostra ap
 Per realizzare i mock-up abbiamo usato Figma, quest'ultimo ci permette di
 creare dei mockup dinamici, simulando il funzionamento dell'applicazione.
 \paragraph{Le 8 regole d'oro}
-I mock-up, e quindi l'app, sono stati realizzati seguendo alcune delle 8 regole di \textbf{Shneiderman} con particolare attezione a 2 regole:
+I mock-up, e quindi l'applicazione poi, sono stati realizzati seguendo alcune delle 8 regole di \textbf{Shneiderman} con particolare attezione a 2 regole:
 \begin{itemize}
-  \item \textbf{Riscontri informativi}: abbiamo aggiunto dei \textit{pop-up}, schermate di caricamento e messaggi "\textit{toast}", in modo da guidare l'utente durante tutta l'esperienza di utilizzo. 
-  In particolare ad ogni azione dell'utente viene notificata tramite messaggio "\textit{toast}", se l'azione è andata a buon fine oppure c'è stato un errore. Abbiamo utilizzato la schermata di caricamento principalemente durante il login, così che se la richiesta al server dovesse richiedere più tempo, l'utente lo saprà e saprà quando la richiesta è terminata.
-  Per quanto riguarda il \textit{pop-up} è stato utilizzato nell'eliminazione del piatto. Infatti quando si proverà ad eliminare un piatto il sistema mostrerà un \textit{pop-up} di conferma per evitare qualsiasi eliminazione fortuita.
-  \item \textbf{Riduzione del carico di memoria a breve termine}: è stato garantito non richiedendo informazioni complesse all'utente
+  \item \textbf{Riscontri informativi}: abbiamo aggiunto dei \textit{pop-up}, schermate di caricamento e messaggi "\textit{toast}", in modo da guidare l'utente durante tutta l'esperienza di utilizzo.
+        In particolare ad ogni azione dell'utente viene notificata tramite messaggio "\textit{toast}", se l'azione è andata a buon fine oppure c'è stato un errore. Abbiamo utilizzato la schermata di caricamento principalemente durante il login, così che se la richiesta al server dovesse richiedere più tempo, l'utente lo saprà e saprà quando la richiesta è terminata.
+        Per quanto riguarda il \textit{pop-up} è stato utilizzato nell'eliminazione del piatto. Infatti quando si proverà ad eliminare un piatto il sistema mostrerà un \textit{pop-up} di conferma per evitare qualsiasi eliminazione fortuita.
+  \item \textbf{Riduzione del carico di memoria a breve termine}: è stato garantito non richiedendo informazioni complesse all'utente. Inoltre l'utente non dovrà preoccuparsi di "portare" informazioni da una schermata all'altra.
+  \item \textbf{Usabilità universale}: l'applicazione è stata sviluppata tenendo conto di tutte le fasce d'età infatti è estremamente semplice e intuitiva nel suo utilizzo. Le funzionalità sono state implementate nella maniera più semplice possibile, richiedendo meno informazioni possibili e nel caso in cui ci fosse la necessità di chiedere più informazioni, è stato fatto nel modo più graduale possibile.
+  \item \textbf{Coerenza a tutti i costi}: le funzionalità sono state sviluppate in modo "simile", creazione notifiche e creazione piatto ad esempio, sono pressochè la stessa funzionalità, rendendo così l'applicazione coerente e di facile utilizzo.
 \end{itemize}
+\newpage
+Dopo la realizzazione dei prototipi, è stato effettuato un test di usabilità. Per garantire un risultato oggettivo, sono stati scelti attentamente dei valutatori che andranno utilizzati sui prototipi.
+Qui sotto è riportato un grafico che rappresenta 4 tipi di valutatori
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.7]{img/varie/valutatori.jpeg}
+\end{figure}
+Ricordandoci le regole di \textbf{Nielsen}, abbiamo scelto 5 persone che testeranno l'applicaizone, in modo da avere oltre l'$85\%$ di problemi d'usabilità trovati. Gli utenti sono i seguenti:
+\begin{itemize}
+  \item \textbf{Valutatore}: con bassa conoscenza tecnologica, bassa conoscenza del dominio (Fabiana E.).
+  \item \textbf{Valutatori} x2: bassa conoscenza tecnologica, alta conoscenza del dominio
+        \subitem (Antonio L., Roberto P.).
+  \item \textbf{Valutatore}: con alta conoscenza tecnologica, bassa conoscenza del dominio (Corrado R.).
+  \item \textbf{Valutatore}: con alta conoscenza tecnologica, alta conoscenza del dominio (Ciro C.).
+\end{itemize}
+\newpage
+\subsubsection{Tabella di valutazione}
+\`{E} stato deciso, per garantire una valutazione oggettiva, di stabilire dei punteggi diversi per diversi tipi di utenti, per le funzionalità assegnate.
+\begin{figure}[H]
+  \centering
+  \includegraphics{img/varie/tabella_usabilita_con_pt.png}
+\end{figure}
+\`{E} stato assegnato anche un punteggio per il tempo impiegato nel completamento di ogni compito.
+\begin{table}[H]
+  \begin{center}
+    \def\arraystretch{1.5}
+    \begin{tabular}{|c|c|c|}
+      \hline
+      \textbf{0-3 minuti} & \textbf{3-5 minuti} & \textbf{più di 5 minuti} \\
+      \hline
+      2pt                 & 1.5pt               & 1pt                      \\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+Inoltreabbiamo ritenuto necessario assegnare un punteggio a seconda della complessità del compito svolto.
+\begin{table}[H]
+  \begin{center}
+    \def\arraystretch{1.5}
+    \begin{tabular}{|c|c|c|c|}
+      \hline
+      \textbf{COMPITO 1} & \textbf{COMPITO 2} & \textbf{COMPITO 3} & \textbf{COMPITO 4} \\
+      \hline
+      2pt                & 1.5pt              & 2pt                  & 1pt                \\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+\newpage
+\subsubsection{Tecnica utilizzata}
+Per lo svolgimento dei test è stato utilizzata la tecnica del \textit{Mago di Oz}, nella maniera più fedele possibile.
+\paragraph{Compiti assegnati} Ai nostri utenti sono stati assegnati i seguenti 4 compiti da svolgere:
+\begin{itemize}
+  \item \textbf{Compito 1}: Cambio password.
+  \item \textbf{Compito 2}: Creazione piatto.
+  \item \textbf{Compito 3}: Cancellazione piatto.
+  \item \textbf{Compito 4}: Visualizzazione notifica.
+\end{itemize}
+Nella seguente tabella è possibile visualizzare i risultati dei test:
+\begin{table}[H]
+  \begin{center}
+    \def\arraystretch{1.5}
+    \begin{tabular}{|l|c|c|c|c|}
+      \hline
+      &\textbf{COMPITO 1} & \textbf{COMPITO 2} & \textbf{COMPITO 3} & \textbf{COMPITO 4} \\
+      \hline
+      \textbf{Fabiana E.} & 2pt                & 1.5pt              & 2pt                  & 1pt                \\
+      \hline
+      \textbf{Antonio L.} & 2pt                & 1.5pt              & 2pt                  & 1pt                \\
+      \hline
+      \textbf{Roberto P.} & 2pt                & 1.5pt              & 2pt                  & 1pt                \\
+      \hline
+      \textbf{Corrado R.} & 2pt                & 1.5pt              & 2pt                  & 1pt                \\
+      \hline
+      \textbf{Ciro C.} & 2pt                & 1.5pt              & 2pt                  & 1pt                \\
+      \hline
+    \end{tabular}
+  \end{center}
+\end{table}

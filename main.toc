@@ -30,3 +30,6 @@
 \contentsline {paragraph}{Maria colombo}{25}{section*.5}%
 \contentsline {subsection}{\numberline {2.8}Valutazione dell'usabilità a priori}{26}{subsection.2.8}%
 \contentsline {paragraph}{Le 8 regole d'oro}{26}{section*.6}%
+\contentsline {subsubsection}{\numberline {2.8.1}Tabella di valutazione}{28}{subsubsection.2.8.1}%
+\contentsline {subsubsection}{\numberline {2.8.2}Tecnica utilizzata}{29}{subsubsection.2.8.2}%
+\contentsline {paragraph}{Compiti assegnati}{29}{section*.7}%
