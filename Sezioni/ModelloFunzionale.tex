@@ -26,13 +26,11 @@ Il sistema offre le seguenti funzionalità:
 Le modalità secondo le quali saranno offerte le funzionalità sopracitate sono le seguenti:
 \begin{itemize}
   \item \textbf{Usabilità} L'applicazione è stata sottoposta a una ricerca nel dettaglio di
-        "User Personas" e monitoraggio tramite servizi official Google.inc.
+        "User Personas".
   \item \textbf{Scalabilità}
-        Scalabilità Il sistema deve avere un back-end in cloud scalabile per adat-
-        tarsi a frequenze di accesso elevate.
+        Scalabilità Il sistema deve avere un back-end in cloud scalabile per adattarsi a frequenze di accesso elevate.
   \item \textbf{Password policy security} Le password dell'utente verrano salvate in
-        cloud con un controllo regex avanzato (vedesi testing) e sicurezza su crit-
-        tografia SHA-256.
+        cloud con password crittografata.
   \item \textbf{Utilizzo di single-activity, multi-fragment} L'applicazione utilizza per
         fluidità e facile gestione il pattern di single-activity e multi-fragment in modo
         da dare precisi scopi alle activity che gestiscono fragment comuni.
@@ -42,7 +40,7 @@ Le modalità secondo le quali saranno offerte le funzionalità sopracitate sono 
   \item \textbf{ISO/IEC} Il sistema deve essere conforme alle direttive \textit{ISO/IEC} del trattamento dei dati privati su servizi di hosting in cloud.
   \item \textbf{GDPR} Il sistema segue le direttive euorpee sulla \textit{GDPR} e quelle delle policy della privacy.
 \end{itemize}
-\subsection{Descrizione use-case}
+\subsection{Modellazione dei casi d'uso}
 Di seguito sono descritti in dettaglio gli use-case scelti dal team di sviluppatori, al fine di dare un'idea concreta e chiara sul funzionamento del software sviluppato.
 \subsubsection{Use-case generale}
 Questo use-case è nato dopo aver attentamente valutato le richieste da parte degli stakeholders, infatti tale use-case contiene tutte le funzionalità richieste, mostrate in maniera semplificate solo ed esclusivamente per dare un idea generale delle possibilità offerte dal software.
@@ -119,7 +117,7 @@ tra loro attraverso l'invocazione di trigger e descrivendo (in formato tabellare
     \hline Use Case \#2                     & \multicolumn{3} {l|}{Eliminazione piatto}                                                                                                                                                     \\ \hline Goal in
     Context                                 & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{L'utente vuole eliminare un piatto dal menù}                                                                 \\
     \hline Preconditions                    &
-    \multicolumn{3}{l|}{L'utente deve essere autenticato correttamente ed in \textbf{M4}}                                                                                                                                      \\
+    \multicolumn{3}{l|}{L'utente deve essere autenticato correttamente ed in \textbf{M4}}                                                                                                                                                   \\
     \hline Success End Conditions           &
     \multicolumn{3}{l|}{Il piatto è stato eliminato}                                                                                                                                                                                        \\
     \hline Failed End Conditions            &
@@ -143,8 +141,73 @@ tra loro attraverso l'invocazione di trigger e descrivendo (in formato tabellare
 \end{table}
 
 \subsubsection{Creazione piatto}
+\begin{table}[H]
+  \def\arraystretch{1.5}
+  \begin{tabularx}{\linewidth}{|l|X|X|X|}
+    \hline Use Case \#3                    & \multicolumn{3} {l|}{Creazione piatto}                                                                                                                                               \\ \hline Goal in
+    Context                                 & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{L'utente vuole creare un piatto}                                                                    \\
+    \hline Preconditions                    &
+    \multicolumn{3}{l|}{L'utente deve essere autenticato correttamente ed in \textbf{M6}}                                                                                                                                          \\
+    \hline Success End Conditions           &
+    \multicolumn{3}{l|}{Il piatto è stato creato}                                                                                                                                                                                  \\
+    \hline Failed End Conditions            &
+    \multicolumn{3}{l|}{Il piatto non è stato creato}                                                                                                                                                                              \\
+    \hline Primary Actor                    &
+    \multicolumn{3}{l|}{Utente autenticato}                                                                                                                                                                                        \\
+    \hline Trigger                          & \multicolumn{3}{l|}{L'utente autenticato preme il tasto "crea piatto" in \textbf{M6}}                                                                                                \\
 
+    \hline \multirow{2}{*}{Description}     & Step                                                                                                              & Utente autenticato    & Sistema                                  \\
+    \cline{2-4}                             & 1                                                                                                                 & Clicca "crea piatto"  &                                          \\
+    \cline{2-4}                             & 2                                                                                                                 &                       & chiude M7                                \\
+    \cline{2-4}                             & 3                                                                                                                 & Riempie i campi       &                                          \\
+    \cline{2-4}                             & 4                                                                                                                 & Conferma la creazione &                                          \\
+    \cline{2-4}                             & 5                                                                                                                 &                       & Chiude M7                                \\
+    \cline{2-4}                             & 6                                                                                                                 &                       & Mostra messaggio di successo             \\
+    \hline \multirow{2}{*}{Extensions\#1: } & Step                                                                                                              & Utente autenticato    & Sistema                                  \\
+    \cline{2-4} campi non validi            & 5.1                                                                                                               &                       & Svuota i campi inseriti                  \\
+    \cline{2-4}                             & 6.1                                                                                                               &                       & Mostra messaggio d'errore                \\
+    \hline \multirow{2}{*}{Extensions\#2: } & Step                                                                                                              & Utente autenticato    & Sistema                                  \\
+    \cline{2-4} Uno o più campi vuoti       & 5.2                                                                                                               &                       & Svuota i campi inseriti                  \\
+    \cline{2-4}                             & 6.2                                                                                                               &                       & Mostra messaggio d'errore                \\
+
+    \hline \multirow{2}{*}{Extensions\#3: } & Step                                                                                                              & Utente autenticato    & Sistema                                  \\
+    \cline{2-4} Impossibile connettersi     & 5.3                                                                                                               &                       & Mostra messaggio "Errore di connessione" \\
+    \hline
+  \end{tabularx}
+\end{table}
 \subsubsection{Creazione notifica}
+\begin{table}[H]
+  \def\arraystretch{1.5}
+  \begin{tabularx}{\linewidth}{|l|X|X|X|}
+    \hline Use Case \#4                     & \multicolumn{3} {l|}{Creazione notifica}                                                                                                                                                 \\ \hline Goal in
+    Context                                 & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{L'utente vuole creare una notifica}                                                                     \\
+    \hline Preconditions                    &
+    \multicolumn{3}{l|}{L'utente deve essere autenticato correttamente ed in \textbf{M8}}                                                                                                                                              \\
+    \hline Success End Conditions           &
+    \multicolumn{3}{l|}{La notifica è stata creata}                                                                                                                                                                                    \\
+    \hline Failed End Conditions            &
+    \multicolumn{3}{l|}{La notifica non è stata creata}                                                                                                                                                                                \\
+    \hline Primary Actor                    &
+    \multicolumn{3}{l|}{Utente autenticato}                                                                                                                                                                                            \\
+    \hline Trigger                          & \multicolumn{3}{l|}{L'utente autenticato preme il tasto "crea notifica" in \textbf{M8}}                                                                                                  \\
+
+    \hline \multirow{2}{*}{Description}     & Step                                                                                                                 & Utente autenticato     & Sistema                                  \\
+    \cline{2-4}                             & 1                                                                                                                    & Clicca "crea notifica" &                                          \\
+    \cline{2-4}                             & 2                                                                                                                    &                        & chiude M9                                \\
+    \cline{2-4}                             & 3                                                                                                                    & Riempie i campi        &                                          \\
+    \cline{2-4}                             & 4                                                                                                                    & Conferma la creazione  &                                          \\
+    \cline{2-4}                             & 5                                                                                                                    &                        & Chiude M9                                \\
+    \cline{2-4}                             & 6                                                                                                                    &                        & Mostra messaggio di successo             \\
+    \hline \multirow{2}{*}{Extensions\#1: } & Step                                                                                                                 & Utente autenticato     & Sistema                                  \\
+    \cline{2-4} Uno o più campi vuoti       & 5.2                                                                                                                  &                        & Svuota i campi inseriti                  \\
+    \cline{2-4}                             & 5.1                                                                                                                  &                        & Mostra messaggio d'errore                \\
+
+    \hline \multirow{2}{*}{Extensions\#2: } & Step                                                                                                                 & Utente autenticato     & Sistema                                  \\
+    \cline{2-4} Impossibile connettersi     & 5.2                                                                                                                  &                        & Mostra messaggio "Errore di connessione" \\
+    \hline
+  \end{tabularx}
+\end{table}
+
 \newpage
 \subsection{Mock-Up}
 Un mock-up , è una realizzazione a scopo illustrativo o meramente espositivo, di un oggetto o un sistema, senza le complete funzioni
@@ -189,7 +252,100 @@ In questa schermata l'utente potrà confermare l'eliminazione del piatto oppure 
   \centering
   \includegraphics[scale=0.6]{img/mock-up/Confirm_dish_deletion.png}
   \caption{Conferma eliminazione piatto.}
-\end{figure} 
+\end{figure}
+\newpage
 \subsubsection{Creazione piatto}
-
+La creazione del piatto è una delle funzionalità più importanti, infatti è quella che ci permette di popolare il menù con piatti creati da noi. Per creare un piatto, bisognerà che l'utente di trovi nella schermata del menù (\textbf{M6}).
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{img/mock-up/Menù.png}
+  \caption{Schermata del menù.}
+\end{figure}
+\newpage
+In questa scermata, tramite i tre puntini in alto a destra, possiamo attivare la funzione di creazione di un piatto, che ci aprirà \textbf{M7}.
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{img/mock-up/create_dish.png}
+  \caption{Schermata del menù.}
+\end{figure}
+Una volta in questa schermata non bisognerà fare altro che riempire i campi necessari e confermare la craezione.
+\newpage
 \subsubsection{Creazione notifica}
+La creazione di una notifica, permette ad un amministratore/supervisore, di mandare un messaggio a tutti i suoi dipendente, così da poter comunicare avvisi importanti indistintamente ad ogni dipendente qualora si voglia. Per farlo, l'utente deve trovarsi in \textbf{M8} ($\downarrow$) e premere "CREA NOTIFICA".
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{img/mock-up/Notificaitons.png}
+  \caption{Schermata delle notifiche.}
+\end{figure}
+\newpage
+Una volta premuto "CREA NOTIFICA", il sistema mostrerà \textbf{M9} ($\downarrow$), al cui interno ci saranno due campi richiesti (titolo e testo, la data verrà prelevata in automatico dal sistema), una volta compilati, l'utente può premere "CREA NOTIFICA".
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{img/mock-up/create_notifications.png}
+  \caption{Schermata per la creazione di una notifica.}
+\end{figure}
+\newpage
+\subsection{Individuazione del target a priori}
+Ratatouille23\texttrademark \ nasce con l'idea di creare un sistema efficiente e affidabile per la gestione di attività di ristorazione. Nello specifico poter permettere ad un responsabile di poter dividere dettagliatamente le mansioni di un dipendente con la possibilità di assumere dei collaboratori (e.g. supervisore).
+Il target che si può definire da una prima analisi delle funzionalità e casi d'uso, è il seguente:
+\begin{itemize}
+  \item Camerieri e manager di ristorante.
+  \item Cuochi, sous chef e aiuto cuoco.
+  \item Proprietario e dirigente di ristorante.
+\end{itemize}
+Questa prima analisi può fornirci una visione sommaria delle personas.
+\subsubsection{Personas}
+Il focus principale per noi è stato quello di analizzare 2 aspetti che abbiamo ritenuto fondamentali
+per individuare le user personas così da poter sviluppare un software cucito su misura:
+\begin{enumerate}
+  \item \textbf{Età:} la fascia d'età che abbiamo potuto notare essere più conforme all'utente ideale è quella dei 18-65 anni, in modo da comprendere uno studente ma anche un cuoco di fama mondiale con alle spalle numerosi anni di esperienza.
+  \item \textbf{Background:} per background s'intende la formazione dell'utente. Infatti un nostro utente può essere uno studente, che lavora il weekend per poter pagare l'affitto da fuorisede, così come può essere un ragazzo con formazione \textit{sommelier} o una ragazza che ha conseguito un corso all'\textit{ALMA}.
+\end{enumerate}
+Questo ci permette di pianificare sviluppi futuri del nostro software. Potremmo infatti creare una sezione dedicata ai vini, facendo in modo che il sommelier consigli in base ai piatti ordinati, quali vini si accostano meglio.\\
+Potremmo aggiungere una sezione con dei percorsi culinari, studiati in precedenza da un personale esperto e preparato. Così facendo potremo fidelizzare i nostri utenti dandogli completa libertà per la gestione della loro attività.
+\newpage
+\paragraph{Lucia Zhang}
+La prima user persona è stata utilizzata per raccoglire il target di utenti nella fascia compresa tra i 25-35 anni, che hanno un'alta competenza con la tecnologia e che sono già avviati, nel mondo del lavoro.
+\renewcommand{\figurename}{}
+  \renewcommand{\thefigure}{Fig.\arabic{figure}}
+\setcounter{figure}{\getrefnumber{1}}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.25]{img/personas/Lucia_zhang_persona.png}
+  \caption{User persona n.1.}
+\end{figure} 
+
+\newpage
+\paragraph{Stefano Iamunno}
+La seconda user persona è stata utilizzata per raccoglire il target di utenti nella fascia d'età compresa tra i 18-25 anni, che hanno un'alta competenza tecnologica ma che si sono appena approcciati al mondo del lavoro.
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.25]{img/personas/Stefano_iamunno_persona.png}
+  \caption{User persona n.2.}
+\end{figure} 
+\newpage
+\paragraph{Maria colombo}
+La terza user persona è stata utilizzata per raccoglire il target di utenti nella fascia d'età compresa tra i 35-65 anni, che hanno una bassa competenza tecnologica ma con una vasta esperienza nel mondo del lavoro. Sono utenti che con la loro esperienza lavorativa possono assumere pressochè qualsiasi ruolo all'interno di un'attività di ristorazione.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.25]{img/personas/Maria_colombo_persona.png}
+  \caption{User persona n.3.}
+\end{figure}\newpage 
+\subsection{Valutazione dell'usabilità a priori} 
+
+Per quanto riguarda la valutazione dell'usabilità a priori abbiamo utilizzato le modalità che avevamo a disposizione. \\
+In particolare, per ottenere una valutazione dell'usabilità a priori oggettiva e corretta, abbiamo speso molto tempo nella fase di progettazione,  della progettazione UI
+e delle funzionalità, in modo da poter riprodurre dei prototipi della nostra applicazione. Questo ci ha permesso di apportare poche ma essenziali modifiche alla versione finale, rendendo il tutto più robusto e affidabile possibile.
+\\
+\\
+Per realizzare i mock-up abbiamo usato Figma, quest'ultimo ci permette di
+creare dei mockup dinamici, simulando il funzionamento dell'applicazione.
+\paragraph{Le 8 regole d'oro}
+I mock-up, e quindi l'app, sono stati realizzati seguendo alcune delle 8 regole di \textbf{Shneiderman} con particolare attezione a 2 regole:
+\begin{itemize}
+  \item \textbf{Riscontri informativi}: abbiamo aggiunto dei \textit{pop-up}, schermate di caricamento e messaggi "\textit{toast}", in modo da guidare l'utente durante tutta l'esperienza di utilizzo. 
+  In particolare ad ogni azione dell'utente viene notificata tramite messaggio "\textit{toast}", se l'azione è andata a buon fine oppure c'è stato un errore. Abbiamo utilizzato la schermata di caricamento principalemente durante il login, così che se la richiesta al server dovesse richiedere più tempo, l'utente lo saprà e saprà quando la richiesta è terminata.
+  Per quanto riguarda il \textit{pop-up} è stato utilizzato nell'eliminazione del piatto. Infatti quando si proverà ad eliminare un piatto il sistema mostrerà un \textit{pop-up} di conferma per evitare qualsiasi eliminazione fortuita.
+  \item \textbf{Riduzione del carico di memoria a breve termine}: è stato garantito non richiedendo informazioni complesse all'utente
+\end{itemize}

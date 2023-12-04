@@ -6,7 +6,7 @@
 \contentsline {subsubsection}{\numberline {2.1.1}Requisiti funzionali}{3}{subsubsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.2}Requisiti non funzionali}{3}{subsection.2.2}%
 \contentsline {subsection}{\numberline {2.3}Requisiti di dominio}{4}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Descrizione use-case}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Modellazione dei casi d'uso}{4}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.1}Use-case generale}{4}{subsubsection.2.4.1}%
 \contentsline {subsubsection}{\numberline {2.4.2}Creazione piatto}{5}{subsubsection.2.4.2}%
 \contentsline {subsubsection}{\numberline {2.4.3}Eliminazione piatto}{5}{subsubsection.2.4.3}%
@@ -16,10 +16,17 @@
 \contentsline {paragraph}{Cosa sono?}{8}{section*.2}%
 \contentsline {subsubsection}{\numberline {2.5.1}Creazione ordinazione}{8}{subsubsection.2.5.1}%
 \contentsline {subsubsection}{\numberline {2.5.2}Eliminazione piatto}{9}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}Creazione piatto}{9}{subsubsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.4}Creazione notifica}{9}{subsubsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.6}Mock-Up}{10}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}Creazione ordinazione}{11}{subsubsection.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.6.2}Eliminazione piatto}{14}{subsubsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.3}Creazione piatto}{15}{subsubsection.2.6.3}%
-\contentsline {subsubsection}{\numberline {2.6.4}Creazione notifica}{15}{subsubsection.2.6.4}%
+\contentsline {subsubsection}{\numberline {2.5.3}Creazione piatto}{10}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Creazione notifica}{11}{subsubsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.6}Mock-Up}{12}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Creazione ordinazione}{13}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Eliminazione piatto}{16}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Creazione piatto}{18}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}Creazione notifica}{20}{subsubsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.7}Individuazione del target a priori}{22}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Personas}{22}{subsubsection.2.7.1}%
+\contentsline {paragraph}{Lucia Zhang}{23}{section*.3}%
+\contentsline {paragraph}{Stefano Iamunno}{24}{section*.4}%
+\contentsline {paragraph}{Maria colombo}{25}{section*.5}%
+\contentsline {subsection}{\numberline {2.8}Valutazione dell'usabilità a priori}{26}{subsection.2.8}%
+\contentsline {paragraph}{Le 8 regole d'oro}{26}{section*.6}%
