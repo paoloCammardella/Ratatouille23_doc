@@ -1,35 +1,37 @@
-\contentsline {section}{\numberline {1}Introduzione}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Cosa contiene questa documentazione}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Tecnologie utilizzate}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Modello funzionale}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Requisiti del software}{3}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Requisiti funzionali}{3}{subsubsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.2}Requisiti non funzionali}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Requisiti di dominio}{4}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Modellazione dei casi d'uso}{4}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Use-case generale}{4}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Creazione piatto}{5}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Eliminazione piatto}{5}{subsubsection.2.4.3}%
-\contentsline {subsubsection}{\numberline {2.4.4}Creazione ordinazione}{6}{subsubsection.2.4.4}%
-\contentsline {subsubsection}{\numberline {2.4.5}Creazione notifica}{7}{subsubsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.5}Tabelle cockburn}{8}{subsection.2.5}%
-\contentsline {paragraph}{Cosa sono?}{8}{section*.2}%
-\contentsline {subsubsection}{\numberline {2.5.1}Creazione ordinazione}{8}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}Eliminazione piatto}{9}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}Creazione piatto}{10}{subsubsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.4}Creazione notifica}{11}{subsubsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.6}Mock-Up}{12}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}Creazione ordinazione}{13}{subsubsection.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.6.2}Eliminazione piatto}{16}{subsubsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.3}Creazione piatto}{18}{subsubsection.2.6.3}%
-\contentsline {subsubsection}{\numberline {2.6.4}Creazione notifica}{20}{subsubsection.2.6.4}%
-\contentsline {subsection}{\numberline {2.7}Individuazione del target a priori}{22}{subsection.2.7}%
-\contentsline {subsubsection}{\numberline {2.7.1}Personas}{22}{subsubsection.2.7.1}%
-\contentsline {paragraph}{Lucia Zhang}{23}{section*.3}%
-\contentsline {paragraph}{Stefano Iamunno}{24}{section*.4}%
-\contentsline {paragraph}{Maria colombo}{25}{section*.5}%
-\contentsline {subsection}{\numberline {2.8}Valutazione dell'usabilità a priori}{26}{subsection.2.8}%
-\contentsline {paragraph}{Le 8 regole d'oro}{26}{section*.6}%
-\contentsline {subsubsection}{\numberline {2.8.1}Tabella di valutazione}{28}{subsubsection.2.8.1}%
-\contentsline {subsubsection}{\numberline {2.8.2}Tecnica utilizzata}{29}{subsubsection.2.8.2}%
+\contentsline {section}{\numberline {0}Glossario}{2}{section.0}%
+\contentsline {section}{\numberline {1}Introduzione}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Cosa contiene questa documentazione}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Tecnologie utilizzate}{3}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Modello funzionale}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Requisiti del software}{4}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Requisiti funzionali}{4}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Requisiti non funzionali}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Requisiti di dominio}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Modellazione dei casi d'uso}{5}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Use-case generale}{5}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Creazione piatto}{6}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Eliminazione piatto}{6}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Creazione ordinazione}{7}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.5}Creazione notifica}{8}{subsubsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.5}Tabelle cockburn}{9}{subsection.2.5}%
+\contentsline {paragraph}{Cosa sono?}{9}{section*.2}%
+\contentsline {subsubsection}{\numberline {2.5.1}Creazione ordinazione}{9}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Eliminazione piatto}{10}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Creazione piatto}{11}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Creazione notifica}{12}{subsubsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.6}Mock-Up}{13}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Creazione ordinazione}{14}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Eliminazione piatto}{17}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Creazione piatto}{19}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}Creazione notifica}{21}{subsubsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.7}Individuazione del target a priori}{23}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Personas}{23}{subsubsection.2.7.1}%
+\contentsline {paragraph}{Lucia Zhang}{24}{section*.3}%
+\contentsline {paragraph}{Stefano Iamunno}{25}{section*.4}%
+\contentsline {paragraph}{Maria colombo}{26}{section*.5}%
+\contentsline {subsection}{\numberline {2.8}Valutazione dell'usabilità a priori}{27}{subsection.2.8}%
+\contentsline {paragraph}{Le 8 regole d'oro}{27}{section*.6}%
+\contentsline {subsubsection}{\numberline {2.8.1}Tecnica utilizzata}{29}{subsubsection.2.8.1}%
 \contentsline {paragraph}{Compiti assegnati}{29}{section*.7}%
+\contentsline {paragraph}{Feedback degli utenti}{29}{section*.8}%
+\contentsline {paragraph}{P.S.}{29}{section*.9}%

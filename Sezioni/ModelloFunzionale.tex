@@ -333,16 +333,19 @@ La terza user persona è stata utilizzata per raccoglire il target di utenti nel
   \caption{User persona n.3.}
 \end{figure}\newpage
 \subsection{Valutazione dell'usabilità a priori}
-
-Per quanto riguarda la valutazione dell'usabilità a priori abbiamo utilizzato le modalità che avevamo a disposizione. \\
+\begin{quote}
+  L'usabilità di un prodotto è il grado con cui esso può essere usato da specificati utenti per raggiungere specificati obiettivi con efficacia, efficienza e soddisfazione in uno specificato contesto d'uso.
+\end{quote}
+Facendo riferimento allo standard \textbf{ISO 9241}$(\uparrow)$, abbiamo basato la valutazione dell'usabilità a priori principalmente su questa definizione in quanto semplice ed efficace, e sulle modalità a nostra disposizione. 
+\newline
 In particolare, per ottenere una valutazione dell'usabilità a priori oggettiva e corretta, abbiamo speso molto tempo nella fase di progettazione,  della progettazione UI
-e delle funzionalità, in modo da poter riprodurre dei prototipi della nostra applicazione. Questo ci ha permesso di apportare poche ma essenziali modifiche alla versione finale, rendendo il tutto più robusto e affidabile possibile.
+e delle funzionalità, in modo da poter riprodurre dei prototipi della nostra applicazione quanto più realistici possibile. Questo ci ha permesso di apportare poche ma essenziali modifiche alla versione finale, rendendo il tutto più robusto e affidabile.
 \\
 \\
 Per realizzare i mock-up abbiamo usato Figma, quest'ultimo ci permette di
-creare dei mockup dinamici, simulando il funzionamento dell'applicazione.
+creare dei mockup dinamici, simulando il funzionamento dell'applicazione, senza però tralasciare l'aspetto estetico, potendo così fornire una visione concreta della nostra applicaizone.
 \paragraph{Le 8 regole d'oro}
-I mock-up, e quindi l'applicazione poi, sono stati realizzati seguendo alcune delle 8 regole di \textbf{Shneiderman} con particolare attezione a 2 regole:
+I mock-up, e quindi l'applicazione poi, sono stati realizzati seguendo alcune delle 8 regole di \textbf{Shneiderman} con particolare attezione a 4 delle 8 regole:
 \begin{itemize}
   \item \textbf{Riscontri informativi}: abbiamo aggiunto dei \textit{pop-up}, schermate di caricamento e messaggi "\textit{toast}", in modo da guidare l'utente durante tutta l'esperienza di utilizzo.
         In particolare ad ogni azione dell'utente viene notificata tramite messaggio "\textit{toast}", se l'azione è andata a buon fine oppure c'è stato un errore. Abbiamo utilizzato la schermata di caricamento principalemente durante il login, così che se la richiesta al server dovesse richiedere più tempo, l'utente lo saprà e saprà quando la richiesta è terminata.
@@ -358,7 +361,7 @@ Qui sotto è riportato un grafico che rappresenta 4 tipi di valutatori
   \centering
   \includegraphics[scale=0.7]{img/varie/valutatori.jpeg}
 \end{figure}
-Ricordandoci le regole di \textbf{Nielsen}, abbiamo scelto 5 persone che testeranno l'applicaizone, in modo da avere oltre l'$85\%$ di problemi d'usabilità trovati. Gli utenti sono i seguenti:
+Ricordandoci "la regola di \textbf{Nielsen}", abbiamo scelto 5 tester per l'applicaizone. I 5 utenti metteranno in evidenza la maggior parte dei problemi di usabilità (circa il 75\%) più significativi (aggiungerne di più comporterebbe un aumento dei costi inutile). Gli utenti sono i seguenti:
 \begin{itemize}
   \item \textbf{Valutatore}: con bassa conoscenza tecnologica, bassa conoscenza del dominio (Fabiana E.).
   \item \textbf{Valutatori} x2: bassa conoscenza tecnologica, alta conoscenza del dominio
@@ -366,42 +369,10 @@ Ricordandoci le regole di \textbf{Nielsen}, abbiamo scelto 5 persone che testera
   \item \textbf{Valutatore}: con alta conoscenza tecnologica, bassa conoscenza del dominio (Corrado R.).
   \item \textbf{Valutatore}: con alta conoscenza tecnologica, alta conoscenza del dominio (Ciro C.).
 \end{itemize}
-\newpage
-\subsubsection{Tabella di valutazione}
-\`{E} stato deciso, per garantire una valutazione oggettiva, di stabilire dei punteggi diversi per diversi tipi di utenti, per le funzionalità assegnate.
-\begin{figure}[H]
-  \centering
-  \includegraphics{img/varie/tabella_usabilita_con_pt.png}
-\end{figure}
-\`{E} stato assegnato anche un punteggio per il tempo impiegato nel completamento di ogni compito.
-\begin{table}[H]
-  \begin{center}
-    \def\arraystretch{1.5}
-    \begin{tabular}{|c|c|c|}
-      \hline
-      \textbf{0-3 minuti} & \textbf{3-5 minuti} & \textbf{più di 5 minuti} \\
-      \hline
-      2pt                 & 1.5pt               & 1pt                      \\
-      \hline
-    \end{tabular}
-  \end{center}
-\end{table}
-Inoltreabbiamo ritenuto necessario assegnare un punteggio a seconda della complessità del compito svolto.
-\begin{table}[H]
-  \begin{center}
-    \def\arraystretch{1.5}
-    \begin{tabular}{|c|c|c|c|}
-      \hline
-      \textbf{COMPITO 1} & \textbf{COMPITO 2} & \textbf{COMPITO 3} & \textbf{COMPITO 4} \\
-      \hline
-      2pt                & 1.5pt              & 2pt                  & 1pt                \\
-      \hline
-    \end{tabular}
-  \end{center}
-\end{table}
+\`{E} importante che gli utenti scelti (al di fuori del gruppo di progetto, in modo da non avere risultati falsati) abbiano caratteristiche diverse, scelti con cura in modo da rappresentare la più ampia fascia d'utenti (per quanto possibile).
 \newpage
 \subsubsection{Tecnica utilizzata}
-Per lo svolgimento dei test è stato utilizzata la tecnica del \textit{Mago di Oz}, nella maniera più fedele possibile.
+Per lo svolgimento dei test è stato utilizzata la tecnica del \textit{Mago di Oz}, che consiste nel realizzare un prototipo interattivo, in cui le risposte, se possibile all'insaputa dell'utente, da parte di un essere umano che operi "dietro le quinte". nella maniera più fedele possibile.
 \paragraph{Compiti assegnati} Ai nostri utenti sono stati assegnati i seguenti 4 compiti da svolgere:
 \begin{itemize}
   \item \textbf{Compito 1}: Cambio password.
@@ -417,16 +388,24 @@ Nella seguente tabella è possibile visualizzare i risultati dei test:
       \hline
       &\textbf{COMPITO 1} & \textbf{COMPITO 2} & \textbf{COMPITO 3} & \textbf{COMPITO 4} \\
       \hline
-      \textbf{Fabiana E.} & 2pt                & 1.5pt              & 2pt                  & 1pt                \\
+      \textbf{Fabiana E.} & S                & S              & S                  & P                \\
       \hline
-      \textbf{Antonio L.} & 2pt                & 1.5pt              & 2pt                  & 1pt                \\
+      \textbf{Antonio L.} & S                & F              & S                  & S                \\
       \hline
-      \textbf{Roberto P.} & 2pt                & 1.5pt              & 2pt                  & 1pt                \\
+      \textbf{Roberto P.} & S                & S              & S                  & S                \\
       \hline
-      \textbf{Corrado R.} & 2pt                & 1.5pt              & 2pt                  & 1pt                \\
+      \textbf{Corrado R.} & S                & P              & P                  & S                \\
       \hline
-      \textbf{Ciro C.} & 2pt                & 1.5pt              & 2pt                  & 1pt                \\
+      \textbf{Ciro C.} & S                & P              & S                  & S                \\
       \hline
     \end{tabular}
   \end{center}
+  \caption{F = fallimento = 0; P = successo parziale = 0.5; S = successo = 1}
 \end{table}
+Avendo cosi un totale di $17/20 = (15+(4*0.5))$ compiti eseguiti per una percentuale di $85\%$.
+\paragraph{Feedback degli utenti} i nostri tester ci hanno evidenziato come:
+\begin{itemize}
+  \item L'inserimento del prezzo era lento e incline ad errori, abbiamo sostituito così l'inserimento a mo' di orario con un semplice EditText.
+  \item La visualizzazione delle notifiche era controintuitiva a primo impatto, infatti non tutti sono riusciti subito a trovare il tasto "visualizza", adesso con un semplice tocco della notifica appare il tasto "visualizza". 
+\end{itemize} 
+\paragraph{P.S.} in principio erano stati assegnati dei punteggi anche al tempo impiegato, abbiamo però notato che il nostro gruppo di tester si aggirava più o meno sullo stesso tempo impiegato, abbiamo quindi deciso fosse inutile (nel nostro caso) lasciare quei punteggi.
