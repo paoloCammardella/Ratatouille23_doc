@@ -22,7 +22,7 @@ In questo class diagram viene analizzato il punto 3 della traccia ovvero la gest
   \caption{Class diagram della gestione del menù}
 \end{figure}
 \newpage
-\subsection{Class diagram - Creazione utenza}
+\subsubsection{Class diagram - Creazione utenza}
 Nel seguente class diagram verrà analizzato il punto 1, quello nel quale si richiede la creazione di un utente e l'eventuale cambio password nel caso in cui si tratti del primo login, il cambio password verrà però affrontato in un \textit{class diagram} successivo, in modo da poter comprendere anche l'accesso alla piattaforma.
 
 \begin{figure}[H]
@@ -37,7 +37,7 @@ Adesso, come detto in precedenza, analizzeremo l'accesso (con conseguente cambio
   \includegraphics[scale=0.5]{img/class_diagrams/accessoCambioPassword_class_diagram.png}
   \caption{Class diagram dell'accesso alla piattaforma}
 \end{figure}
-\subsection{Class diagram - Gestione tavoli}
+\subsubsection{Class diagram - Gestione tavoli}
 Il seguente \textit{class diagram} analizza il punto 6, quindi creazione ordinazioni indicando l'identificativo del tavolo e gli elementi del menù da aggiungere al tavolo.
 \begin{figure}[H]
   \centering
@@ -45,10 +45,38 @@ Il seguente \textit{class diagram} analizza il punto 6, quindi creazione ordinaz
   \caption{Class diagram della gestione dei tavoli}
 \end{figure}
 \newpage
-\subsection{Class diagram - Gestione notifiche}
+\subsubsection{Class diagram - Gestione notifiche}
 Il seguente \textit{class diagram} analizza il punto 13, quindi creazione di avvisi (notifiche), al quale verrà aggiunta la visualizzazione delle notifiche.
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.5]{img/class_diagrams/gestioneNotifiche_class_diagram.png}
   \caption{Class diagram della gestione delle notifiche}
 \end{figure}
+\newpage
+\subsection{Sequence diagram}
+In questa sezione verranno analizzati due casi d'uso ritenuti fondamentali per questo progetto, in particolare analizzeremo la \textbf{creazione di un piatto}, in quanto parte fondamentale per la gestione di un'attività di ristorazione e la \textbf{gestione delle notifiche}, quest'ultima è stata scelta poiché tutti i dipendenti possono ricevere e visualizzare notifiche ed è fondamentale ai fini del corretto svolgimento dell'attività.
+\subsubsection{Sequence diagram - Creazione piatto}
+In questo \textit{sequence diagram} l'attore è un superivsore o l'amministratore, sono gli unici due ruoli con i permessi per la creazione di un piatto. I controlli che verranno fatti saranno sull'esistenza della categoria selezionata, verrà controllato se il piatto è già presente ed eventualmente se uno o più campi sono vuoti o non validi.
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.8]{img/sequence/creazionePiatto_sequence_diagram.png}
+  \caption{Sequence diagram della creazione di un piatto}
+\end{figure}
+
+\subsubsection{Sequence diagram - Creazione piatto}
+In questo \textit{sequence diagram} l'attore è un superivsore o l'amministratore, sono gli unici due ruoli con i permessi per la creazione di un piatto. I controlli che verranno fatti saranno sull'esistenza della categoria selezionata, verrà controllato se il piatto è già presente ed eventualmente se uno o più campi sono vuoti o non validi.
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.8]{img/sequence/creazionePiatto_sequence_diagram.png}
+  \caption{Sequence diagram della creazione di un piatto}
+\end{figure}  
+\newpage
+\subsubsection{Sequence diagram - Creazione notifica}
+In questo \textit{sequence diagram} l'attore è un superivsore o l'amministratore, sono gli unici due ruoli con i permessi per la creazione di una. I controlli che verranno eseguiti saranno sull'esistenza della notifica, ed eventualmente se uno o più campi sono vuoti o non validi, in entrambi casi se la notifica verrà valutata "non valida", il sistema farà apparire a schermo un messaggio con scritto "errore nella creazione della notifica".
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.9]{img/sequence/creazioneNotifica_sequence_diagraem.png}
+  \caption{Sequence diagram della creazione di una notifica}
+\end{figure}  
+\newpage
+\subsection{State chart}

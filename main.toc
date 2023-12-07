@@ -4,7 +4,7 @@
 \contentsline {paragraph}{Usabilità}{2}{section*.3}%
 \contentsline {paragraph}{Mock-up}{2}{section*.4}%
 \contentsline {paragraph}{Class diagram}{2}{section*.5}%
-\contentsline {paragraph}{Sequenc diagram}{2}{section*.6}%
+\contentsline {paragraph}{Sequence diagram}{2}{section*.6}%
 \contentsline {paragraph}{Scenario}{2}{section*.7}%
 \contentsline {paragraph}{State chart diagram}{2}{section*.8}%
 \contentsline {paragraph}{Activity diagram}{2}{section*.9}%
@@ -20,17 +20,18 @@
 \contentsline {paragraph}{Use case}{3}{section*.19}%
 \contentsline {paragraph}{Docker}{3}{section*.20}%
 \contentsline {subsection}{\numberline {0.2}Acronimi}{4}{subsection.0.2}%
-\contentsline {paragraph}{AWS}{4}{section*.21}%
-\contentsline {paragraph}{EC2}{4}{section*.22}%
-\contentsline {paragraph}{API}{4}{section*.23}%
-\contentsline {paragraph}{HTTP}{4}{section*.24}%
-\contentsline {paragraph}{ISO/IEC}{4}{section*.25}%
-\contentsline {paragraph}{GDPR}{4}{section*.26}%
-\contentsline {paragraph}{MVP}{4}{section*.27}%
-\contentsline {paragraph}{UI}{4}{section*.28}%
-\contentsline {paragraph}{DTO}{4}{section*.29}%
-\contentsline {paragraph}{SECT}{4}{section*.30}%
-\contentsline {paragraph}{WECT}{4}{section*.31}%
+\contentsline {paragraph}{JWT}{4}{section*.21}%
+\contentsline {paragraph}{AWS}{4}{section*.22}%
+\contentsline {paragraph}{EC2}{4}{section*.23}%
+\contentsline {paragraph}{API}{4}{section*.24}%
+\contentsline {paragraph}{HTTP}{4}{section*.25}%
+\contentsline {paragraph}{ISO/IEC}{4}{section*.26}%
+\contentsline {paragraph}{GDPR}{4}{section*.27}%
+\contentsline {paragraph}{MVP}{4}{section*.28}%
+\contentsline {paragraph}{UI}{4}{section*.29}%
+\contentsline {paragraph}{DTO}{4}{section*.30}%
+\contentsline {paragraph}{SECT}{4}{section*.31}%
+\contentsline {paragraph}{WECT}{4}{section*.32}%
 \contentsline {section}{\numberline {1}Introduzione}{5}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Cosa contiene questa documentazione}{5}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Tecnologie utilizzate}{5}{subsection.1.2}%
@@ -46,7 +47,7 @@
 \contentsline {subsubsection}{\numberline {2.4.4}Creazione ordinazione}{9}{subsubsection.2.4.4}%
 \contentsline {subsubsection}{\numberline {2.4.5}Creazione notifica}{10}{subsubsection.2.4.5}%
 \contentsline {subsection}{\numberline {2.5}Tabelle cockburn}{11}{subsection.2.5}%
-\contentsline {paragraph}{Cosa sono?}{11}{section*.32}%
+\contentsline {paragraph}{Cosa sono?}{11}{section*.33}%
 \contentsline {subsubsection}{\numberline {2.5.1}Creazione ordinazione}{11}{subsubsection.2.5.1}%
 \contentsline {subsubsection}{\numberline {2.5.2}Eliminazione piatto}{12}{subsubsection.2.5.2}%
 \contentsline {subsubsection}{\numberline {2.5.3}Creazione piatto}{13}{subsubsection.2.5.3}%
@@ -58,19 +59,24 @@
 \contentsline {subsubsection}{\numberline {2.6.4}Creazione notifica}{23}{subsubsection.2.6.4}%
 \contentsline {subsection}{\numberline {2.7}Individuazione del target a priori}{25}{subsection.2.7}%
 \contentsline {subsubsection}{\numberline {2.7.1}Personas}{25}{subsubsection.2.7.1}%
-\contentsline {paragraph}{Lucia Zhang}{26}{section*.33}%
-\contentsline {paragraph}{Stefano Iamunno}{27}{section*.34}%
-\contentsline {paragraph}{Maria colombo}{28}{section*.35}%
+\contentsline {paragraph}{Lucia Zhang}{26}{section*.34}%
+\contentsline {paragraph}{Stefano Iamunno}{27}{section*.35}%
+\contentsline {paragraph}{Maria colombo}{28}{section*.36}%
 \contentsline {subsection}{\numberline {2.8}Valutazione dell'usabilità a priori}{29}{subsection.2.8}%
-\contentsline {paragraph}{Le 8 regole d'oro}{29}{section*.36}%
+\contentsline {paragraph}{Le 8 regole d'oro}{29}{section*.37}%
 \contentsline {subsubsection}{\numberline {2.8.1}Tecnica utilizzata}{31}{subsubsection.2.8.1}%
-\contentsline {paragraph}{Compiti assegnati}{31}{section*.37}%
-\contentsline {paragraph}{Feedback degli utenti}{31}{section*.38}%
-\contentsline {paragraph}{P.S.}{31}{section*.39}%
+\contentsline {paragraph}{Compiti assegnati}{31}{section*.38}%
+\contentsline {paragraph}{Feedback degli utenti}{31}{section*.39}%
+\contentsline {paragraph}{P.S.}{31}{section*.40}%
 \contentsline {section}{\numberline {3}Specifica dei casi d'uso}{32}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Classi, oggetti e relazioni di analisi}{32}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Class diagram di analisi - Gestione menù}{33}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Class diagram - Creazione utenza}{34}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Class diagram - Accesso alla piattaforma}{34}{subsubsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.4}Class diagram - Gestione tavoli}{35}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Class diagram - Gestione notifiche}{36}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.2.1}Class diagram - Creazione utenza}{34}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Class diagram - Accesso alla piattaforma}{34}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Class diagram - Gestione tavoli}{35}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Class diagram - Gestione notifiche}{36}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Sequence diagram}{37}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Sequence diagram - Creazione piatto}{37}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Sequence diagram - Creazione piatto}{38}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Sequence diagram - Creazione notifica}{39}{subsubsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}State chart}{40}{subsection.3.4}%

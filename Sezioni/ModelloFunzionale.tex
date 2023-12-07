@@ -28,7 +28,7 @@ Le modalità secondo le quali saranno offerte le funzionalità sopracitate sono 
   \item \textbf{Usabilità} L'applicazione è stata sottoposta a una ricerca nel dettaglio di
         "User Personas".
   \item \textbf{Scalabilità}
-        Scalabilità Il sistema deve avere un back-end in cloud scalabile per adattarsi a frequenze di accesso elevate.
+        Il sistema deve avere un back-end in cloud scalabile per adattarsi a frequenze di accesso elevate.
   \item \textbf{Password policy security} Le password dell'utente verrano salvate in
         cloud con password crittografata.
   \item \textbf{Utilizzo di single-activity, multi-fragment} L'applicazione utilizza per
@@ -51,24 +51,24 @@ Questo use-case è nato dopo aver attentamente valutato le richieste da parte de
 \subsubsection{Creazione piatto}
 La creazione del piatto è una delle funzionalità più elaborate, in quanto, non basterà essere un amministratore/supervisore e inserire i dati (nome, descrizione, allergeni, categoria e prezzo) necessari alla creazione di un piatto. Verrà infatti controllata l'esistenza del piatto e, nel caso di esito positivo il piatto non verrà creato, altrimenti verrà aggiunto alla categoria selezionata.
 \begin{center}
-  \includegraphics[scale=0.65]{img/use_case/use_case-creazione_piatto.png}
+  \includegraphics[scale=0.8]{img/use_case/use_case-creazione_piatto.png}
 \end{center}
 \subsubsection{Eliminazione piatto}
 L'eliminazione del piatto è tutto sommato una funzionalità semplice ed autoesplicativa. Viene semplicemente scelto, da un amministratore/supervisore, il piatto che si desidera eliminare, una volta eliminato ci sarà una richiesta di conferma di eliminazione.
 \begin{center}
-  \includegraphics[scale=0.5]{img/use_case/use_case-eliminazione_piatto.png}
+  \includegraphics[scale=1.2]{img/use_case/use_case-eliminazione_piatto.png}
 \end{center}
 \newpage
 \subsubsection{Creazione ordinazione}
 La creazione di un ordinazione è un requistio fondamentale per la corretta gestione di un'attività di ristorazione che sia essa una tavola calda, un Autogrill o un classico risotrante. Per prima cosa è necessario che l'utente registrato che prova a creare un ordinazione è un "addetto alla sala". Infatti nel caso in cui l'utente registrato non appartiene a questa categoria, non gli sarà permesso a priori la creazione di un ordinazione. Per creare un ordinazione è necessario scegliere un tavolo (tramite l'identificativo associato), e selezionare i piatti che si vogliono aggiungere all'ordinazione (sarà possibile registrare più ordinazioni per lo stesso tavolo in momenti separati).
 \begin{center}
-  \includegraphics[scale=0.6]{img/use_case/use_case-creazione_ordine.png}
+  \includegraphics[scale=1]{img/use_case/use_case-creazione_ordine.png}
 \end{center}
 \newpage
 \subsubsection{Creazione notifica}
 La creazione di un avviso (notifica), è un aspetto fondamentale del software in quanto permette all'amministratore/supervisore di comunicare informazioni importanti indistintamente ad ogni utente. Infatti gli unici utenti con permessi per creare un avviso (notifica) sono proprio l'amministratore e i supervisori.
 \begin{center}
-  \includegraphics[scale=0.6]{img/use_case/use_case-creazione_notifica.png}
+  \includegraphics[scale=1.3]{img/use_case/use_case-creazione_notifica.png}
 \end{center}
 \newpage
 \subsection{Tabelle cockburn}
@@ -78,35 +78,35 @@ specifici a scelta descrivendoli tramite \textbf{tabelle di Cockburn}.
 Sono la rappresentazione di un main scenario (nel nostro primo caso la creazione di un'ordinazione) nel quale uno o più attori interagiscono
 tra loro attraverso l'invocazione di trigger e descrivendo (in formato tabellare) gli eventi.
 \\
-\\Per garantire una certa corenza al committente e una comprensione a tutto tondo abbiamo scelto gli stessi casi esplorati nella presentazione dei casi d'uso.
+\\Per garantire una certa coerenza al committente e una comprensione a tutto tondo abbiamo scelto gli stessi casi esplorati nella presentazione dei casi d'uso.
 \subsubsection{Creazione ordinazione}
 
 \begin{table}[H]
   \def\arraystretch{1.5}
   \begin{tabularx}{\linewidth}{|l|X|X|X|}
-    \hline Use Case \#1                      & \multicolumn{3} {l|}{Creazione ordinazione}                                                                                                                                                         \\ \hline Goal in
-    Context                                  & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{Si vuole creare una nuova ordinazione}                                                                             \\
+    \hline Use Case \#1                      & \multicolumn{3} {l|}{Creazione ordinazione}                                                                                                                                                                 \\ \hline Goal in
+    Context                                  & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{Si vuole creare una nuova ordinazione}                                                                                     \\
     \hline Preconditions                     &
-    \multicolumn{3}{l|}{L'utente deve essere autenticato correttamente ed in \textbf{M2}}                                                                                                                                                          \\
+    \multicolumn{3}{l|}{L'utente deve essere autenticato correttamente ed in \textbf{M2}}                                                                                                                                                                  \\
     \hline Success End Conditions            &
-    \multicolumn{3}{l|}{L'ordinazione è stata creata}                                                                                                                                                                                              \\
+    \multicolumn{3}{l|}{L'ordinazione è stata creata}                                                                                                                                                                                                      \\
     \hline Failed End Conditions             &
-    \multicolumn{3}{l|}{L'ordinazione non è stata creata}                                                                                                                                                                                          \\
+    \multicolumn{3}{l|}{L'ordinazione non è stata creata}                                                                                                                                                                                                  \\
     \hline Primary Actor                     &
-    \multicolumn{3}{l|}{Utente autenticato}                                                                                                                                                                                                        \\
-    \hline Trigger                           & \multicolumn{3}{l|}{L'utente autenticato preme il tasto "crea ordinazione"}                                                                                                                         \\
+    \multicolumn{3}{l|}{Utente autenticato}                                                                                                                                                                                                                \\
+    \hline Trigger                           & \multicolumn{3}{l|}{L'utente autenticato preme il tasto "crea ordinazione"}                                                                                                                                 \\
 
-    \hline \multirow{2}{*}{Description}      & Step                                                                                                                    & Utente autenticato             & Sistema                                  \\
-    \cline{2-4}                              & 1                                                                                                                       & Preme "Aggiungi ordinazione"   &                                          \\
-    \cline{2-4}                              & 2                                                                                                                       &                                & Mostra M3                                \\
-    \cline{2-4}                              & 3                                                                                                                       & Seleziona i piatti da inserire &                                          \\
-    \cline{2-4}                              & 4                                                                                                                       & Conferma l'ordine              &                                          \\
-    \cline{2-4}                              & 5                                                                                                                       &                                & Chiude M3                                \\
-    \cline{2-4}                              & 6                                                                                                                       &                                & Mostra messaggio di successo             \\
-    \hline \multirow{2}{*}{Extensions\#1: }  & Step                                                                                                                    & Utente autenticato             & Sistema                                  \\
-    \cline{2-4}Categoria o piatto non validi & 6.1                                                                                                                     &                                & Mostra messaggio d'errore                \\
-    \hline \multirow{2}{*}{Extensions\#2: }  & Step                                                                                                                    & Utente autenticato             & Sistema                                  \\
-    \cline{2-4} Impossibile connettersi      & 6.2                                                                                                                     &                                & Mostra messaggio "Errore di connessione" \\
+    \hline \multirow{2}{*}{Description}      & Step                                                                                                                    & Utente autenticato             & Sistema                                          \\
+    \cline{2-4}                              & 1                                                                                                                       & Preme "Aggiungi ordinazione"   &                                                  \\
+    \cline{2-4}                              & 2                                                                                                                       &                                & Mostra M3                                        \\
+    \cline{2-4}                              & 3                                                                                                                       & Seleziona i piatti da inserire &                                                  \\
+    \cline{2-4}                              & 4                                                                                                                       & Conferma l'ordine              &                                                  \\
+    \cline{2-4}                              & 5                                                                                                                       &                                & Chiude M3                                        \\
+    \cline{2-4}                              & 6                                                                                                                       &                                & Mostra messaggio "ordinazione creata"            \\
+    \hline \multirow{2}{*}{Extensions\#1: }  & Step                                                                                                                    & Utente autenticato             & Sistema                                          \\
+    \cline{2-4}Categoria o piatto non validi & 6.1                                                                                                                     &                                & Mostra messaggio "categoria o piatti non validi" \\
+    \hline \multirow{2}{*}{Extensions\#2: }  & Step                                                                                                                    & Utente autenticato             & Sistema                                          \\
+    \cline{2-4} Impossibile connettersi      & 6.2                                                                                                                     &                                & Mostra messaggio "Errore di connessione"         \\
     \hline
   \end{tabularx}
 \end{table}
@@ -130,7 +130,7 @@ tra loro attraverso l'invocazione di trigger e descrivendo (in formato tabellare
     \cline{2-4}                             & 1                                                                                                                             &                    & Mostra M5                                \\
     \cline{2-4}                             & 2                                                                                                                             & Clicca "ELIMINA"   &                                          \\
     \cline{2-4}                             & 3                                                                                                                             &                    & chiude M5                                \\
-    \cline{2-4}                             & 4                                                                                                                             &                    & Mostra messaggio di successo             \\
+    \cline{2-4}                             & 4                                                                                                                             &                    & Mostra messaggio "piatto eliminato"      \\
     \hline \multirow{2}{*}{Extensions\#1: } & Step                                                                                                                          & Utente autenticato & Sistema                                  \\
     \cline{2-4}L'utente clicca "INDIETRO"   & 2.1                                                                                                                           & Clicca "INDIETRO"  &                                          \\
     \cline{2-4}                             & 3.1                                                                                                                           &                    & Chiude M5                                \\
@@ -144,34 +144,34 @@ tra loro attraverso l'invocazione di trigger e descrivendo (in formato tabellare
 \begin{table}[H]
   \def\arraystretch{1.5}
   \begin{tabularx}{\linewidth}{|l|X|X|X|}
-    \hline Use Case \#3                     & \multicolumn{3} {l|}{Creazione piatto}                                                                                                                                               \\ \hline Goal in
-    Context                                 & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{L'utente vuole creare un piatto}                                                                    \\
+    \hline Use Case \#3                     & \multicolumn{3} {l|}{Creazione piatto}                                                                                                                                                         \\ \hline Goal in
+    Context                                 & \multicolumn{3}{>{\hsize=\dimexpr 3\hsize+4\tabcolsep+2\arrayrulewidth\relax}X|}{L'utente vuole creare un piatto}                                                                              \\
     \hline Preconditions                    &
-    \multicolumn{3}{l|}{L'utente deve essere autenticato correttamente ed in \textbf{M6}}                                                                                                                                          \\
+    \multicolumn{3}{l|}{L'utente deve essere autenticato correttamente ed in \textbf{M6}}                                                                                                                                                    \\
     \hline Success End Conditions           &
-    \multicolumn{3}{l|}{Il piatto è stato creato}                                                                                                                                                                                  \\
+    \multicolumn{3}{l|}{Il piatto è stato creato}                                                                                                                                                                                            \\
     \hline Failed End Conditions            &
-    \multicolumn{3}{l|}{Il piatto non è stato creato}                                                                                                                                                                              \\
+    \multicolumn{3}{l|}{Il piatto non è stato creato}                                                                                                                                                                                        \\
     \hline Primary Actor                    &
-    \multicolumn{3}{l|}{Utente autenticato}                                                                                                                                                                                        \\
-    \hline Trigger                          & \multicolumn{3}{l|}{L'utente autenticato preme il tasto "crea piatto" in \textbf{M6}}                                                                                                \\
+    \multicolumn{3}{l|}{Utente autenticato}                                                                                                                                                                                                  \\
+    \hline Trigger                          & \multicolumn{3}{l|}{L'utente autenticato preme il tasto "crea piatto" in \textbf{M6}}                                                                                                          \\
 
-    \hline \multirow{2}{*}{Description}     & Step                                                                                                              & Utente autenticato    & Sistema                                  \\
-    \cline{2-4}                             & 1                                                                                                                 & Clicca "crea piatto"  &                                          \\
-    \cline{2-4}                             & 2                                                                                                                 &                       & chiude M7                                \\
-    \cline{2-4}                             & 3                                                                                                                 & Riempie i campi       &                                          \\
-    \cline{2-4}                             & 4                                                                                                                 & Conferma la creazione &                                          \\
-    \cline{2-4}                             & 5                                                                                                                 &                       & Chiude M7                                \\
-    \cline{2-4}                             & 6                                                                                                                 &                       & Mostra messaggio di successo             \\
-    \hline \multirow{2}{*}{Extensions\#1: } & Step                                                                                                              & Utente autenticato    & Sistema                                  \\
-    \cline{2-4} campi non validi            & 5.1                                                                                                               &                       & Svuota i campi inseriti                  \\
-    \cline{2-4}                             & 6.1                                                                                                               &                       & Mostra messaggio d'errore                \\
-    \hline \multirow{2}{*}{Extensions\#2: } & Step                                                                                                              & Utente autenticato    & Sistema                                  \\
-    \cline{2-4} Uno o più campi vuoti       & 5.2                                                                                                               &                       & Svuota i campi inseriti                  \\
-    \cline{2-4}                             & 6.2                                                                                                               &                       & Mostra messaggio d'errore                \\
+    \hline \multirow{2}{*}{Description}     & Step                                                                                                              & Utente autenticato    & Sistema                                            \\
+    \cline{2-4}                             & 1                                                                                                                 & Clicca "crea piatto"  &                                                    \\
+    \cline{2-4}                             & 2                                                                                                                 &                       & chiude M7                                          \\
+    \cline{2-4}                             & 3                                                                                                                 & Riempie i campi       &                                                    \\
+    \cline{2-4}                             & 4                                                                                                                 & Conferma la creazione &                                                    \\
+    \cline{2-4}                             & 5                                                                                                                 &                       & Chiude M7                                          \\
+    \cline{2-4}                             & 6                                                                                                                 &                       & Mostra messaggio "piatto creato"                   \\
+    \hline \multirow{2}{*}{Extensions\#1: } & Step                                                                                                              & Utente autenticato    & Sistema                                            \\
+    \cline{2-4} campi non validi            & 5.1                                                                                                               &                       & Svuota i campi inseriti                            \\
+    \cline{2-4}                             & 6.1                                                                                                               &                       & Mostra messaggio "i campi inseriti non sono validi \\
+    \hline \multirow{2}{*}{Extensions\#2: } & Step                                                                                                              & Utente autenticato    & Sistema                                            \\
+    \cline{2-4} Uno o più campi vuoti       & 5.2                                                                                                               &                       & Svuota i campi inseriti                            \\
+    \cline{2-4}                             & 6.2                                                                                                               &                       & Mostra messaggio "compila tutti i campi"           \\
 
-    \hline \multirow{2}{*}{Extensions\#3: } & Step                                                                                                              & Utente autenticato    & Sistema                                  \\
-    \cline{2-4} Impossibile connettersi     & 5.3                                                                                                               &                       & Mostra messaggio "Errore di connessione" \\
+    \hline \multirow{2}{*}{Extensions\#3: } & Step                                                                                                              & Utente autenticato    & Sistema                                            \\
+    \cline{2-4} Impossibile connettersi     & 5.3                                                                                                               &                       & Mostra messaggio "Errore di connessione"           \\
     \hline
   \end{tabularx}
 \end{table}
@@ -197,10 +197,10 @@ tra loro attraverso l'invocazione di trigger e descrivendo (in formato tabellare
     \cline{2-4}                             & 3                                                                                                                    & Riempie i campi        &                                          \\
     \cline{2-4}                             & 4                                                                                                                    & Conferma la creazione  &                                          \\
     \cline{2-4}                             & 5                                                                                                                    &                        & Chiude M9                                \\
-    \cline{2-4}                             & 6                                                                                                                    &                        & Mostra messaggio di successo             \\
+    \cline{2-4}                             & 6                                                                                                                    &                        & Mostra messaggio "notifica creata"       \\
     \hline \multirow{2}{*}{Extensions\#1: } & Step                                                                                                                 & Utente autenticato     & Sistema                                  \\
     \cline{2-4} Uno o più campi vuoti       & 5.2                                                                                                                  &                        & Svuota i campi inseriti                  \\
-    \cline{2-4}                             & 5.1                                                                                                                  &                        & Mostra messaggio d'errore                \\
+    \cline{2-4}                             & 5.1                                                                                                                  &                        & Mostra messaggio "compila tutti i campi" \\
 
     \hline \multirow{2}{*}{Extensions\#2: } & Step                                                                                                                 & Utente autenticato     & Sistema                                  \\
     \cline{2-4} Impossibile connettersi     & 5.2                                                                                                                  &                        & Mostra messaggio "Errore di connessione" \\
@@ -336,7 +336,7 @@ La terza user persona è stata utilizzata per raccoglire il target di utenti nel
 \begin{quote}
   L'usabilità di un prodotto è il grado con cui esso può essere usato da specificati utenti per raggiungere specificati obiettivi con efficacia, efficienza e soddisfazione in uno specificato contesto d'uso.
 \end{quote}
-Facendo riferimento allo standard \textbf{ISO 9241}$(\uparrow)$, abbiamo basato la valutazione dell'usabilità a priori principalmente su questa definizione in quanto semplice ed efficace, e sulle modalità a nostra disposizione. 
+Facendo riferimento allo standard \textbf{ISO 9241}$(\uparrow)$, abbiamo basato la valutazione dell'usabilità a priori principalmente su questa definizione in quanto semplice ed efficace, e sulle modalità a nostra disposizione.
 \newline
 In particolare, per ottenere una valutazione dell'usabilità a priori oggettiva e corretta, abbiamo speso molto tempo nella fase di progettazione,  della progettazione UI
 e delle funzionalità, in modo da poter riprodurre dei prototipi della nostra applicazione quanto più realistici possibile. Questo ci ha permesso di apportare poche ma essenziali modifiche alla versione finale, rendendo il tutto più robusto e affidabile.
@@ -372,7 +372,7 @@ Ricordandoci "la regola di \textbf{Nielsen}", abbiamo scelto 5 tester per l'appl
 \`{E} importante che gli utenti scelti (al di fuori del gruppo di progetto, in modo da non avere risultati falsati) abbiano caratteristiche diverse, scelti con cura in modo da rappresentare la più ampia fascia d'utenti (per quanto possibile).
 \newpage
 \subsubsection{Tecnica utilizzata}
-Per lo svolgimento dei test è stato utilizzata la tecnica del \textit{Mago di Oz}, che consiste nel realizzare un prototipo interattivo, in cui le risposte, se possibile all'insaputa dell'utente, da parte di un essere umano che operi "dietro le quinte". nella maniera più fedele possibile.
+Per lo svolgimento dei test abbiamo preso spunto dalla tecnica utilizzata sul libro "facile da usare", questo libro infatti spiega molto bene quali dovrebbero essere le cose a cui pensare durante la progettazione e sviluppo di un'applicazione. La tecnica consiste nel realizzare un prototipo interattivo, grazie al quale un tester può avere un idea di quale sarà il funzionamento finale, nella maniera più fedele possibile. Va detto che in questo prototipo non c'è stata alcuna gestione di errori o casistiche speciali, motivo per cui ad ogni tester è stato affiancato il team di sviluppo, per prendere nota e guidare l'utente in caso di errore.
 \paragraph{Compiti assegnati} Ai nostri utenti sono stati assegnati i seguenti 4 compiti da svolgere:
 \begin{itemize}
   \item \textbf{Compito 1}: Cambio password.
@@ -386,17 +386,17 @@ Nella seguente tabella è possibile visualizzare i risultati dei test:
     \def\arraystretch{1.5}
     \begin{tabular}{|l|c|c|c|c|}
       \hline
-      &\textbf{COMPITO 1} & \textbf{COMPITO 2} & \textbf{COMPITO 3} & \textbf{COMPITO 4} \\
+                          & \textbf{COMPITO 1} & \textbf{COMPITO 2} & \textbf{COMPITO 3} & \textbf{COMPITO 4} \\
       \hline
-      \textbf{Fabiana E.} & S                & S              & S                  & P                \\
+      \textbf{Fabiana E.} & S                  & S                  & S                  & P                  \\
       \hline
-      \textbf{Antonio L.} & S                & F              & S                  & S                \\
+      \textbf{Antonio L.} & S                  & F                  & S                  & S                  \\
       \hline
-      \textbf{Roberto P.} & S                & S              & S                  & S                \\
+      \textbf{Roberto P.} & S                  & S                  & S                  & S                  \\
       \hline
-      \textbf{Corrado R.} & S                & P              & P                  & S                \\
+      \textbf{Corrado R.} & S                  & P                  & P                  & S                  \\
       \hline
-      \textbf{Ciro C.} & S                & P              & S                  & S                \\
+      \textbf{Ciro C.}    & S                  & P                  & S                  & S                  \\
       \hline
     \end{tabular}
   \end{center}
@@ -406,6 +406,6 @@ Avendo cosi un totale di $17/20 = (15+(4*0.5))$ compiti eseguiti per una percent
 \paragraph{Feedback degli utenti} i nostri tester ci hanno evidenziato come:
 \begin{itemize}
   \item L'inserimento del prezzo era lento e incline ad errori, abbiamo sostituito così l'inserimento a mo' di orario con un semplice EditText.
-  \item La visualizzazione delle notifiche era controintuitiva a primo impatto, infatti non tutti sono riusciti subito a trovare il tasto "visualizza", adesso con un semplice tocco della notifica appare il tasto "visualizza". 
-\end{itemize} 
+  \item La visualizzazione delle notifiche era controintuitiva a primo impatto, infatti non tutti sono riusciti subito a trovare il tasto "visualizza", adesso con un semplice tocco della notifica appare il tasto "visualizza".
+\end{itemize}
 \paragraph{P.S.} in principio erano stati assegnati dei punteggi anche al tempo impiegato, abbiamo però notato che il nostro gruppo di tester si aggirava più o meno sullo stesso tempo impiegato, abbiamo quindi deciso fosse inutile (nel nostro caso) lasciare quei punteggi.
