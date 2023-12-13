@@ -1,82 +1,125 @@
-\contentsline {section}{\numberline {0}Glossario}{2}{section.0}%
-\contentsline {subsection}{\numberline {0.1}Definizioni}{2}{subsection.0.1}%
-\contentsline {paragraph}{Scalabilità}{2}{section*.2}%
-\contentsline {paragraph}{Usabilità}{2}{section*.3}%
-\contentsline {paragraph}{Mock-up}{2}{section*.4}%
-\contentsline {paragraph}{Class diagram}{2}{section*.5}%
-\contentsline {paragraph}{Sequence diagram}{2}{section*.6}%
-\contentsline {paragraph}{Scenario}{2}{section*.7}%
-\contentsline {paragraph}{State chart diagram}{2}{section*.8}%
-\contentsline {paragraph}{Activity diagram}{2}{section*.9}%
-\contentsline {paragraph}{Persona}{2}{section*.10}%
-\contentsline {paragraph}{White-Box}{2}{section*.11}%
-\contentsline {paragraph}{Black-Box}{2}{section*.12}%
-\contentsline {paragraph}{Framework}{2}{section*.13}%
-\contentsline {paragraph}{Back-end}{3}{section*.14}%
-\contentsline {paragraph}{Front-end}{3}{section*.15}%
-\contentsline {paragraph}{Android}{3}{section*.16}%
-\contentsline {paragraph}{Server}{3}{section*.17}%
-\contentsline {paragraph}{Tabella Cockburn}{3}{section*.18}%
-\contentsline {paragraph}{Use case}{3}{section*.19}%
-\contentsline {paragraph}{Docker}{3}{section*.20}%
-\contentsline {subsection}{\numberline {0.2}Acronimi}{4}{subsection.0.2}%
-\contentsline {paragraph}{JWT}{4}{section*.21}%
-\contentsline {paragraph}{AWS}{4}{section*.22}%
-\contentsline {paragraph}{EC2}{4}{section*.23}%
-\contentsline {paragraph}{API}{4}{section*.24}%
-\contentsline {paragraph}{HTTP}{4}{section*.25}%
-\contentsline {paragraph}{ISO/IEC}{4}{section*.26}%
-\contentsline {paragraph}{GDPR}{4}{section*.27}%
-\contentsline {paragraph}{MVP}{4}{section*.28}%
-\contentsline {paragraph}{UI}{4}{section*.29}%
-\contentsline {paragraph}{DTO}{4}{section*.30}%
-\contentsline {paragraph}{SECT}{4}{section*.31}%
-\contentsline {paragraph}{WECT}{4}{section*.32}%
-\contentsline {section}{\numberline {1}Introduzione}{5}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Cosa contiene questa documentazione}{5}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Tecnologie utilizzate}{5}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Analisi dei requisiti}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Requisiti del software}{6}{subsection.2.1}%
-\contentsline {subsubsection}{\numberline {2.1.1}Requisiti funzionali}{6}{subsubsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.2}Requisiti non funzionali}{6}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Requisiti di dominio}{7}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Modellazione dei casi d'uso}{7}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Use-case generale}{7}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Creazione piatto}{8}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Eliminazione piatto}{8}{subsubsection.2.4.3}%
-\contentsline {subsubsection}{\numberline {2.4.4}Creazione ordinazione}{9}{subsubsection.2.4.4}%
-\contentsline {subsubsection}{\numberline {2.4.5}Creazione notifica}{10}{subsubsection.2.4.5}%
-\contentsline {subsection}{\numberline {2.5}Tabelle cockburn}{11}{subsection.2.5}%
-\contentsline {paragraph}{Cosa sono?}{11}{section*.33}%
-\contentsline {subsubsection}{\numberline {2.5.1}Creazione ordinazione}{11}{subsubsection.2.5.1}%
-\contentsline {subsubsection}{\numberline {2.5.2}Eliminazione piatto}{12}{subsubsection.2.5.2}%
-\contentsline {subsubsection}{\numberline {2.5.3}Creazione piatto}{13}{subsubsection.2.5.3}%
-\contentsline {subsubsection}{\numberline {2.5.4}Creazione notifica}{14}{subsubsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.6}Mock-Up}{15}{subsection.2.6}%
-\contentsline {subsubsection}{\numberline {2.6.1}Creazione ordinazione}{16}{subsubsection.2.6.1}%
-\contentsline {subsubsection}{\numberline {2.6.2}Eliminazione piatto}{19}{subsubsection.2.6.2}%
-\contentsline {subsubsection}{\numberline {2.6.3}Creazione piatto}{21}{subsubsection.2.6.3}%
-\contentsline {subsubsection}{\numberline {2.6.4}Creazione notifica}{23}{subsubsection.2.6.4}%
-\contentsline {subsection}{\numberline {2.7}Individuazione del target a priori}{25}{subsection.2.7}%
-\contentsline {subsubsection}{\numberline {2.7.1}Personas}{25}{subsubsection.2.7.1}%
-\contentsline {paragraph}{Lucia Zhang}{26}{section*.34}%
-\contentsline {paragraph}{Stefano Iamunno}{27}{section*.35}%
-\contentsline {paragraph}{Maria colombo}{28}{section*.36}%
-\contentsline {subsection}{\numberline {2.8}Valutazione dell'usabilità a priori}{29}{subsection.2.8}%
-\contentsline {paragraph}{Le 8 regole d'oro}{29}{section*.37}%
-\contentsline {subsubsection}{\numberline {2.8.1}Tecnica utilizzata}{31}{subsubsection.2.8.1}%
-\contentsline {paragraph}{Compiti assegnati}{31}{section*.38}%
-\contentsline {paragraph}{Feedback degli utenti}{31}{section*.39}%
-\contentsline {paragraph}{P.S.}{31}{section*.40}%
-\contentsline {section}{\numberline {3}Specifica dei casi d'uso}{32}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Classi, oggetti e relazioni di analisi}{32}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Class diagram di analisi - Gestione menù}{33}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Class diagram - Creazione utenza}{34}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Class diagram - Accesso alla piattaforma}{34}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}Class diagram - Gestione tavoli}{35}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.4}Class diagram - Gestione notifiche}{36}{subsubsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.3}Sequence diagram}{37}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Sequence diagram - Creazione piatto}{37}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}Sequence diagram - Creazione piatto}{38}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Sequence diagram - Creazione notifica}{39}{subsubsection.3.3.3}%
-\contentsline {subsection}{\numberline {3.4}State chart}{40}{subsection.3.4}%
+\contentsline {section}{\numberline {0}Glossario}{3}{section.0}%
+\contentsline {subsection}{\numberline {0.1}Definizioni}{3}{subsection.0.1}%
+\contentsline {paragraph}{Scalabilità}{3}{section*.2}%
+\contentsline {paragraph}{Usabilità}{3}{section*.3}%
+\contentsline {paragraph}{Mock-up}{3}{section*.4}%
+\contentsline {paragraph}{Class diagram}{3}{section*.5}%
+\contentsline {paragraph}{Sequence diagram}{3}{section*.6}%
+\contentsline {paragraph}{Scenario}{3}{section*.7}%
+\contentsline {paragraph}{State chart diagram}{3}{section*.8}%
+\contentsline {paragraph}{Activity diagram}{3}{section*.9}%
+\contentsline {paragraph}{Persona}{3}{section*.10}%
+\contentsline {paragraph}{White-Box}{3}{section*.11}%
+\contentsline {paragraph}{Black-Box}{3}{section*.12}%
+\contentsline {paragraph}{Framework}{3}{section*.13}%
+\contentsline {paragraph}{Back-end}{4}{section*.14}%
+\contentsline {paragraph}{Front-end}{4}{section*.15}%
+\contentsline {paragraph}{Android}{4}{section*.16}%
+\contentsline {paragraph}{Server}{4}{section*.17}%
+\contentsline {paragraph}{Tabella Cockburn}{4}{section*.18}%
+\contentsline {paragraph}{Use case}{4}{section*.19}%
+\contentsline {paragraph}{Docker}{4}{section*.20}%
+\contentsline {subsection}{\numberline {0.2}Acronimi}{5}{subsection.0.2}%
+\contentsline {paragraph}{JWT}{5}{section*.21}%
+\contentsline {paragraph}{AWS}{5}{section*.22}%
+\contentsline {paragraph}{EC2}{5}{section*.23}%
+\contentsline {paragraph}{API}{5}{section*.24}%
+\contentsline {paragraph}{HTTP}{5}{section*.25}%
+\contentsline {paragraph}{ISO/IEC}{5}{section*.26}%
+\contentsline {paragraph}{GDPR}{5}{section*.27}%
+\contentsline {paragraph}{MVP}{5}{section*.28}%
+\contentsline {paragraph}{UI}{5}{section*.29}%
+\contentsline {paragraph}{DTO}{5}{section*.30}%
+\contentsline {paragraph}{SECT}{5}{section*.31}%
+\contentsline {paragraph}{WECT}{5}{section*.32}%
+\contentsline {section}{\numberline {1}Introduzione}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Cosa contiene questa documentazione}{6}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Tecnologie utilizzate}{6}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Analisi dei requisiti}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Requisiti del software}{7}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Requisiti funzionali}{7}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Requisiti non funzionali}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Requisiti di dominio}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Modellazione dei casi d'uso}{8}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Use-case generale}{8}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Creazione piatto}{9}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.3}Eliminazione piatto}{9}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.4}Creazione ordinazione}{10}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.5}Creazione notifica}{11}{subsubsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.5}Tabelle cockburn}{12}{subsection.2.5}%
+\contentsline {paragraph}{Cosa sono?}{12}{section*.33}%
+\contentsline {subsubsection}{\numberline {2.5.1}Creazione ordinazione}{12}{subsubsection.2.5.1}%
+\contentsline {subsubsection}{\numberline {2.5.2}Eliminazione piatto}{13}{subsubsection.2.5.2}%
+\contentsline {subsubsection}{\numberline {2.5.3}Creazione piatto}{14}{subsubsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {2.5.4}Creazione notifica}{15}{subsubsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.6}Mock-Up}{16}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.6.1}Creazione ordinazione}{17}{subsubsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {2.6.2}Eliminazione piatto}{20}{subsubsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.3}Creazione piatto}{22}{subsubsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.4}Creazione notifica}{24}{subsubsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.7}Individuazione del target a priori}{26}{subsection.2.7}%
+\contentsline {subsubsection}{\numberline {2.7.1}Personas}{26}{subsubsection.2.7.1}%
+\contentsline {paragraph}{Lucia Zhang}{27}{section*.34}%
+\contentsline {paragraph}{Stefano Iamunno}{28}{section*.35}%
+\contentsline {paragraph}{Maria colombo}{29}{section*.36}%
+\contentsline {subsection}{\numberline {2.8}Valutazione dell'usabilità a priori}{30}{subsection.2.8}%
+\contentsline {paragraph}{Le 8 regole d'oro}{30}{section*.37}%
+\contentsline {subsubsection}{\numberline {2.8.1}Tecnica utilizzata}{32}{subsubsection.2.8.1}%
+\contentsline {paragraph}{Compiti assegnati}{32}{section*.38}%
+\contentsline {paragraph}{Feedback degli utenti}{32}{section*.39}%
+\contentsline {paragraph}{P.S.}{32}{section*.40}%
+\contentsline {section}{\numberline {3}Specifica dei casi d'uso}{33}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Classi, oggetti e relazioni di analisi}{33}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Class diagram di analisi - Gestione menù}{34}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Class diagram - Creazione utenza}{35}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Class diagram - Accesso alla piattaforma}{35}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}Class diagram - Gestione tavoli}{36}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Class diagram - Gestione notifiche}{37}{subsubsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.3}Sequence diagram}{38}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Sequence diagram - Creazione piatto}{38}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Sequence diagram - Creazione piatto}{39}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Sequence diagram - Creazione notifica}{40}{subsubsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}State chart}{41}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}State chart - Notifiche}{41}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}State chart - Menù}{42}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.3}State chart - Tavoli}{43}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.4}State chart - Login e Creazione utenza}{44}{subsubsection.3.4.4}%
+\contentsline {paragraph}{Creazione utenza -}{44}{section*.41}%
+\contentsline {paragraph}{Login -}{45}{section*.42}%
+\contentsline {section}{\numberline {4}Design del sistema}{46}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Analisi architetturale}{46}{subsection.4.1}%
+\contentsline {paragraph}{Architettura cloud}{47}{section*.43}%
+\contentsline {subsection}{\numberline {4.2}Tecnologie utilizzate}{48}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Progettazione}{48}{subsubsection.4.2.1}%
+\contentsline {paragraph}{Figma}{48}{section*.44}%
+\contentsline {paragraph}{Visual paradigm}{48}{section*.45}%
+\contentsline {paragraph}{Tabelle cockburn}{48}{section*.46}%
+\contentsline {subsubsection}{\numberline {4.2.2}Sviluppo}{48}{subsubsection.4.2.2}%
+\contentsline {paragraph}{Springboot}{48}{section*.47}%
+\contentsline {paragraph}{PostgreSQL}{48}{section*.48}%
+\contentsline {paragraph}{Android}{48}{section*.49}%
+\contentsline {paragraph}{Retrofit}{48}{section*.50}%
+\contentsline {paragraph}{JWT}{48}{section*.51}%
+\contentsline {paragraph}{AWS}{48}{section*.52}%
+\contentsline {paragraph}{EC2}{48}{section*.53}%
+\contentsline {paragraph}{Docker}{48}{section*.54}%
+\contentsline {subsubsection}{\numberline {4.2.3}Sviluppo della documentazione}{48}{subsubsection.4.2.3}%
+\contentsline {paragraph}{\LaTeX }{48}{section*.55}%
+\contentsline {paragraph}{draw.io}{48}{section*.56}%
+\contentsline {subsubsection}{\numberline {4.2.4}Testing}{48}{subsubsection.4.2.4}%
+\contentsline {paragraph}{Mockito}{48}{section*.57}%
+\contentsline {paragraph}{JUnit}{48}{section*.58}%
+\contentsline {subsection}{\numberline {4.3}Class diagram - Desgin}{49}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Sequence diagram - Design}{50}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Testing}{51}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Testing JUnit}{51}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Black box testing}{51}{subsubsection.5.1.1}%
+\contentsline {paragraph}{changePassword}{51}{section*.59}%
+\contentsline {paragraph}{hideNotification}{52}{section*.60}%
+\contentsline {subsection}{\numberline {5.2}White box testing}{60}{subsection.5.2}%
+\contentsline {paragraph}{createOrder}{60}{section*.61}%
+\contentsline {paragraph}{deleteDish}{62}{section*.62}%
+\contentsline {subsection}{\numberline {5.3}Valutazione dell'usabilità sul campo}{65}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Compiti assegnati}{65}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Feedback degli utenti}{65}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Log}{66}{subsubsection.5.3.3}%

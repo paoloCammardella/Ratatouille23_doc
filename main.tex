@@ -6,7 +6,7 @@
 \usepackage{lastpage}
 \usepackage{tcolorbox}
 \usepackage{multirow}
-\usepackage{float} 
+\usepackage{float} \usepackage{color, colortbl}
 \usepackage{tabularx}
 \usepackage[colorlinks = true,
             linkcolor = black,
@@ -14,6 +14,20 @@
             citecolor = blue,
             anchorcolor = blue]{hyperref}
 \renewcommand{\contentsname}{Indice}
+\definecolor{darkpastelgreen}{rgb}{0.01, 0.75, 0.24}
+\usepackage{listings, xcolor}
+\lstset{
+tabsize = 4, %% set tab space width
+showstringspaces = false, %% prevent space marking in strings, string is defined as the text that is generally printed directly to the console
+numbers = none, %% display line numbers on the left
+commentstyle = \color{green}, %% set comment color
+keywordstyle = \color{darkpastelgreen}, %% set keyword color
+stringstyle = \color{red}, %% set string color
+rulecolor = \color{black}, %% set frame color to avoid being affected by text color
+basicstyle = \small \ttfamily , %% set listing font and size
+breaklines = true, %% enable line breaking
+keywordsprefix={@},
+}
 
 % STEP 1: include the package
 \usepackage{img/uninaFrontespizio}
@@ -35,4 +49,6 @@
 \include{Sezioni/Presentazione}
 \include{Sezioni/ModelloFunzionale}
 \include{Sezioni/SpecificaDeiRequisiti}
+\include{Sezioni/DesignDelSistema}
+\include{Sezioni/Testing}
 \end{document}

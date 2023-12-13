@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.4)  7 DEC 2023 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.9.4)  13 DEC 2023 11:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -275,8 +275,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box66
 \@float@everytoks=\toks32
 \@floatcapt=\box67
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
  (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen189
@@ -287,13 +287,17 @@ Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \backup@length=\skip61
 \ar@cellbox=\box69
 )
+\everycr=\toks34
+\minrowclearance=\skip62
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen191
 \TX@old@table=\dimen192
 \TX@old@col=\dimen193
 \TX@target=\dimen194
 \TX@delta=\dimen195
 \TX@cols=\count283
-\TX@ftn=\toks34
+\TX@ftn=\toks35
 ) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
  (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
@@ -397,8 +401,30 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
-\Hy@SectionHShift=\skip62
-) (./img/uninaFrontespizio.sty
+\Hy@SectionHShift=\skip63
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count294
+\lst@gtempboxa=\box70
+\lst@token=\toks36
+\lst@length=\count295
+\lst@currlwidth=\dimen256
+\lst@column=\count296
+\lst@pos=\count297
+\lst@lostspace=\dimen257
+\lst@width=\dimen258
+\lst@newlines=\count298
+\lst@lineno=\count299
+\lst@maxwidth=\dimen259
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count300
+\lst@skipnumbers=\count301
+\lst@framebox=\box71
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (./img/uninaFrontespizio.sty
 
 LaTeX Warning: You have requested package `img/uninaFrontespizio',
                but the package provides `uninafrontespizio'.
@@ -409,76 +435,76 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 ) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen256
-\pgffor@skip=\dimen257
-\pgffor@stack=\toks35
-\pgffor@toks=\toks36
+\pgffor@iter=\dimen260
+\pgffor@skip=\dimen261
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
 )) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count294
-\pgfplotmarksize=\dimen258
+\pgf@plot@mark@count=\count302
+\pgfplotmarksize=\dimen262
 )
-\tikz@lastx=\dimen259
-\tikz@lasty=\dimen260
-\tikz@lastxsaved=\dimen261
-\tikz@lastysaved=\dimen262
-\tikz@lastmovetox=\dimen263
-\tikz@lastmovetoy=\dimen264
-\tikzleveldistance=\dimen265
-\tikzsiblingdistance=\dimen266
-\tikz@figbox=\box70
-\tikz@figbox@bg=\box71
-\tikz@tempbox=\box72
-\tikz@tempbox@bg=\box73
-\tikztreelevel=\count295
-\tikznumberofchildren=\count296
-\tikznumberofcurrentchild=\count297
-\tikz@fig@count=\count298
+\tikz@lastx=\dimen263
+\tikz@lasty=\dimen264
+\tikz@lastxsaved=\dimen265
+\tikz@lastysaved=\dimen266
+\tikz@lastmovetox=\dimen267
+\tikz@lastmovetoy=\dimen268
+\tikzleveldistance=\dimen269
+\tikzsiblingdistance=\dimen270
+\tikz@figbox=\box72
+\tikz@figbox@bg=\box73
+\tikz@tempbox=\box74
+\tikz@tempbox@bg=\box75
+\tikztreelevel=\count303
+\tikznumberofchildren=\count304
+\tikznumberofcurrentchild=\count305
+\tikz@fig@count=\count306
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count299
-\pgfmatrixcurrentcolumn=\count300
-\pgf@matrix@numberofcolumns=\count301
+\pgfmatrixcurrentrow=\count307
+\pgfmatrixcurrentcolumn=\count308
+\pgf@matrix@numberofcolumns=\count309
 )
-\tikz@expandcount=\count302
+\tikz@expandcount=\count310
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@layerbox@background=\box74
-\pgf@layerboxsaved@background=\box75
+\pgf@layerbox@background=\box76
+\pgf@layerboxsaved@background=\box77
 )) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count303
-\l__pdf_internal_box=\box76
+\l__color_backend_stack_int=\count311
+\l__pdf_internal_box=\box78
 )
 
 LaTeX Warning: Unused global option(s):
     [14pt].
 
-(./main.aux (./Sezioni/FronteSpizio.aux) (./Sezioni/Glossario.aux) (./Sezioni/Presentazione.aux) (./Sezioni/ModelloFunzionale.aux) (./Sezioni/SpecificaDeiRequisiti.aux))
+(./main.aux (./Sezioni/FronteSpizio.aux) (./Sezioni/Glossario.aux) (./Sezioni/Presentazione.aux) (./Sezioni/ModelloFunzionale.aux) (./Sezioni/SpecificaDeiRequisiti.aux) (./Sezioni/DesignDelSistema.aux) (./Sezioni/Testing.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -516,27 +542,27 @@ LaTeX Font Info:    ... okay on input line 21.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 21.
+(lastpage)             ! on input line 35.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count304
-\scratchdimen=\dimen267
-\scratchbox=\box77
-\nofMPsegments=\count305
-\nofMParguments=\count306
-\everyMPshowfont=\toks37
-\MPscratchCnt=\count307
-\MPscratchDim=\dimen268
-\MPnumerator=\count308
-\makeMPintoPDFobject=\count309
-\everyMPtoPDFconversion=\toks38
+\scratchcounter=\count312
+\scratchdimen=\dimen271
+\scratchbox=\box79
+\nofMPsegments=\count313
+\nofMParguments=\count314
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count315
+\MPscratchDim=\dimen272
+\MPnumerator=\count316
+\makeMPintoPDFobject=\count317
+\everyMPtoPDFconversion=\toks40
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 21.
+Package hyperref Info: Link coloring ON on input line 35.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -544,19 +570,20 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count310
+\c@section@level=\count318
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
  (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
+\c@lstlisting=\count319
 \openout2 = `Sezioni/FronteSpizio.aux'.
 
  (./Sezioni/FronteSpizio.tex
-<img/logo-federico-II.pdf, id=179, 501.79471pt x 499.8675pt>
+<img/logo-federico-II.pdf, id=264, 501.79471pt x 499.8675pt>
 File: img/logo-federico-II.pdf Graphic file (type pdf)
 <use img/logo-federico-II.pdf>
 Package pdftex.def Info: img/logo-federico-II.pdf  used on input line 25.
@@ -569,26 +596,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 2.
-)
-\tf@toc=\write6
-\openout6 = `main.toc'.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 \include{Sezioni/Glossario}
-                                 [1
+l.90 ...nalisi architetturale}{46}{subsection.4.1}
+                                                  % [1
 
 
-]
+])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [2]
 \openout2 = `Sezioni/Glossario.aux'.
 
- (./Sezioni/Glossario.tex [2
+ (./Sezioni/Glossario.tex [3
 
-] [3]) [4]
+] [4]) [5]
 \openout2 = `Sezioni/Presentazione.aux'.
 
- (./Sezioni/Presentazione.tex) [5
+ (./Sezioni/Presentazione.tex) [6
 
 
 
@@ -605,40 +632,40 @@ Overfull \hbox (11.67242pt too wide) in paragraph at lines 20--21
 []\OT1/cmr/m/n/10 La pos-si-bilit^^Ra da parte di un ad-detto alla sala di poter reg-is-trare or-di-nazioni in-di-cando l'identificativo
  []
 
-[6
+[7
 
 
 
 ]
-<img/use_case/use_case_generale.png, id=306, 520.94624pt x 509.65407pt>
+<img/use_case/use_case_generale.png, id=416, 520.94624pt x 509.65407pt>
 File: img/use_case/use_case_generale.png Graphic file (type png)
 <use img/use_case/use_case_generale.png>
 Package pdftex.def Info: img/use_case/use_case_generale.png  used on input line 48.
 (pdftex.def)             Requested size: 416.75757pt x 407.7238pt.
- [7 <./img/use_case/use_case_generale.png (PNG copy)>]
-<img/use_case/use_case-creazione_piatto.png, id=312, 447.92343pt x 261.22594pt>
+ [8 <./img/use_case/use_case_generale.png (PNG copy)>]
+<img/use_case/use_case-creazione_piatto.png, id=422, 447.92343pt x 261.22594pt>
 File: img/use_case/use_case-creazione_piatto.png Graphic file (type png)
 <use img/use_case/use_case-creazione_piatto.png>
 Package pdftex.def Info: img/use_case/use_case-creazione_piatto.png  used on input line 54.
 (pdftex.def)             Requested size: 358.33922pt x 208.98102pt.
-<img/use_case/use_case-eliminazione_piatto.png, id=313, 265.74281pt x 176.91093pt>
+<img/use_case/use_case-eliminazione_piatto.png, id=423, 265.74281pt x 176.91093pt>
 File: img/use_case/use_case-eliminazione_piatto.png Graphic file (type png)
 <use img/use_case/use_case-eliminazione_piatto.png>
 Package pdftex.def Info: img/use_case/use_case-eliminazione_piatto.png  used on input line 59.
 (pdftex.def)             Requested size: 318.88977pt x 212.29204pt.
- [8 <./img/use_case/use_case-creazione_piatto.png (PNG copy)> <./img/use_case/use_case-eliminazione_piatto.png (PNG copy)>]
-<img/use_case/use_case-creazione_ordine.png, id=319, 395.22656pt x 377.15906pt>
+ [9 <./img/use_case/use_case-creazione_piatto.png (PNG copy)> <./img/use_case/use_case-eliminazione_piatto.png (PNG copy)>]
+<img/use_case/use_case-creazione_ordine.png, id=429, 395.22656pt x 377.15906pt>
 File: img/use_case/use_case-creazione_ordine.png Graphic file (type png)
 <use img/use_case/use_case-creazione_ordine.png>
 Package pdftex.def Info: img/use_case/use_case-creazione_ordine.png  used on input line 65.
 (pdftex.def)             Requested size: 395.22559pt x 377.15814pt.
- [9 <./img/use_case/use_case-creazione_ordine.png (PNG copy)>]
-<img/use_case/use_case-creazione_notifica.png, id=325, 289.08pt x 204.01219pt>
+ [10 <./img/use_case/use_case-creazione_ordine.png (PNG copy)>]
+<img/use_case/use_case-creazione_notifica.png, id=435, 289.08pt x 204.01219pt>
 File: img/use_case/use_case-creazione_notifica.png Graphic file (type png)
 <use img/use_case/use_case-creazione_notifica.png>
 Package pdftex.def Info: img/use_case/use_case-creazione_notifica.png  used on input line 71.
 (pdftex.def)             Requested size: 375.80394pt x 265.2158pt.
- [10 <./img/use_case/use_case-creazione_notifica.png (PNG copy)>]
+ [11 <./img/use_case/use_case-creazione_notifica.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 77--82
 
  []
@@ -694,11 +721,11 @@ Underfull \hbox (badness 1454) in paragraph at lines 140--140
  []
 
 
-Overfull \hbox (0.87228pt too wide) in alignment at lines 140--140
+Overfull \hbox (0.87225pt too wide) in alignment at lines 140--140
 [][][][] 
  []
 
-[11]
+[12]
 Underfull \hbox (badness 1210) in paragraph at lines 176--176
 []|\OT1/cmr/m/n/10 Mostra mes-sag-gio "i
  []
@@ -728,7 +755,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--176
 \OT1/cmr/m/n/10 "Er-rore di con-nes-
  []
 
-[12]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 208--208
 []|\OT1/cmr/m/n/10 Mostra mes-sag-gio
  []
@@ -753,68 +780,68 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--208
 \OT1/cmr/m/n/10 "Er-rore di con-nes-
  []
 
-[13] [14]
-<img/Mock-up.doc.png, id=353, 1477.52pt x 1927.2pt>
+[14] [15]
+<img/Mock-up.doc.png, id=464, 1477.52pt x 1927.2pt>
 File: img/Mock-up.doc.png Graphic file (type png)
 <use img/Mock-up.doc.png>
 Package pdftex.def Info: img/Mock-up.doc.png  used on input line 217.
 (pdftex.def)             Requested size: 295.49876pt x 385.43318pt.
- [15 <./img/Mock-up.doc.png>]
-<img/mock-up/tables.png, id=361, 361.35pt x 803.0pt>
+ [16 <./img/Mock-up.doc.png>]
+<img/mock-up/tables.png, id=472, 361.35pt x 803.0pt>
 File: img/mock-up/tables.png Graphic file (type png)
 <use img/mock-up/tables.png>
 Package pdftex.def Info: img/mock-up/tables.png  used on input line 226.
 (pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
- [16 <./img/mock-up/tables.png>]
-<img/mock-up/Table_content.png, id=369, 361.35pt x 803.0pt>
+ [17 <./img/mock-up/tables.png>]
+<img/mock-up/Table_content.png, id=480, 361.35pt x 803.0pt>
 File: img/mock-up/Table_content.png Graphic file (type png)
 <use img/mock-up/Table_content.png>
 Package pdftex.def Info: img/mock-up/Table_content.png  used on input line 232.
 (pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
- [17 <./img/mock-up/Table_content.png>]
-<img/mock-up/New_order.png, id=377, 361.35pt x 803.0pt>
+ [18 <./img/mock-up/Table_content.png>]
+<img/mock-up/New_order.png, id=489, 361.35pt x 803.0pt>
 File: img/mock-up/New_order.png Graphic file (type png)
 <use img/mock-up/New_order.png>
 Package pdftex.def Info: img/mock-up/New_order.png  used on input line 238.
 (pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
- [18 <./img/mock-up/New_order.png>]
-<img/mock-up/Dish_deletion.png, id=386, 361.35pt x 803.0pt>
+ [19 <./img/mock-up/New_order.png>]
+<img/mock-up/Dish_deletion.png, id=497, 361.35pt x 803.0pt>
 File: img/mock-up/Dish_deletion.png Graphic file (type png)
 <use img/mock-up/Dish_deletion.png>
 Package pdftex.def Info: img/mock-up/Dish_deletion.png  used on input line 246.
 (pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
- [19 <./img/mock-up/Dish_deletion.png>]
-<img/mock-up/Confirm_dish_deletion.png, id=394, 361.35pt x 803.0pt>
+ [20 <./img/mock-up/Dish_deletion.png>]
+<img/mock-up/Confirm_dish_deletion.png, id=505, 361.35pt x 803.0pt>
 File: img/mock-up/Confirm_dish_deletion.png Graphic file (type png)
 <use img/mock-up/Confirm_dish_deletion.png>
 Package pdftex.def Info: img/mock-up/Confirm_dish_deletion.png  used on input line 253.
 (pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
- [20 <./img/mock-up/Confirm_dish_deletion.png>]
-<img/mock-up/Menù.png, id=402, 361.35pt x 803.0pt>
+ [21 <./img/mock-up/Confirm_dish_deletion.png>]
+<img/mock-up/Menù.png, id=513, 361.35pt x 803.0pt>
 File: img/mock-up/Menù.png Graphic file (type png)
 <use img/mock-up/Menù.png>
 Package pdftex.def Info: img/mock-up/Menù.png  used on input line 261.
 (pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
- [21 <./img/mock-up/Menù.png>]
-<img/mock-up/create_dish.png, id=410, 361.35pt x 803.0pt>
+ [22 <./img/mock-up/Menù.png>]
+<img/mock-up/create_dish.png, id=521, 361.35pt x 803.0pt>
 File: img/mock-up/create_dish.png Graphic file (type png)
 <use img/mock-up/create_dish.png>
 Package pdftex.def Info: img/mock-up/create_dish.png  used on input line 268.
 (pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
- [22 <./img/mock-up/create_dish.png>]
-<img/mock-up/Notificaitons.png, id=418, 361.35pt x 803.0pt>
+ [23 <./img/mock-up/create_dish.png>]
+<img/mock-up/Notificaitons.png, id=529, 361.35pt x 803.0pt>
 File: img/mock-up/Notificaitons.png Graphic file (type png)
 <use img/mock-up/Notificaitons.png>
 Package pdftex.def Info: img/mock-up/Notificaitons.png  used on input line 277.
 (pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
- [23 <./img/mock-up/Notificaitons.png>]
-<img/mock-up/create_notifications.png, id=427, 361.35pt x 803.0pt>
+ [24 <./img/mock-up/Notificaitons.png>]
+<img/mock-up/create_notifications.png, id=539, 361.35pt x 803.0pt>
 File: img/mock-up/create_notifications.png Graphic file (type png)
 <use img/mock-up/create_notifications.png>
 Package pdftex.def Info: img/mock-up/create_notifications.png  used on input line 284.
 (pdftex.def)             Requested size: 216.81168pt x 481.80373pt.
- [24 <./img/mock-up/create_notifications.png>] [25]
-<img/personas/Lucia_zhang_persona.png, id=444, 1835.85875pt x 1228.59pt>
+ [25 <./img/mock-up/create_notifications.png>] [26]
+<img/personas/Lucia_zhang_persona.png, id=554, 1835.85875pt x 1228.59pt>
 File: img/personas/Lucia_zhang_persona.png Graphic file (type png)
 <use img/personas/Lucia_zhang_persona.png>
 Package pdftex.def Info: img/personas/Lucia_zhang_persona.png  used on input line 314.
@@ -828,8 +855,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has
 <to be read again> 
                    \relax 
 l.315   \caption{User persona n.1.}
-                                    [26 <./img/personas/Lucia_zhang_persona.png>]
-<img/personas/Stefano_iamunno_persona.png, id=452, 1835.85875pt x 1267.73625pt>
+                                    [27 <./img/personas/Lucia_zhang_persona.png>]
+<img/personas/Stefano_iamunno_persona.png, id=562, 1835.85875pt x 1267.73625pt>
 File: img/personas/Stefano_iamunno_persona.png Graphic file (type png)
 <use img/personas/Stefano_iamunno_persona.png>
 Package pdftex.def Info: img/personas/Stefano_iamunno_persona.png  used on input line 323.
@@ -843,8 +870,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
 <to be read again> 
                    \relax 
 l.324   \caption{User persona n.2.}
-                                    [27 <./img/personas/Stefano_iamunno_persona.png>]
-<img/personas/Maria_colombo_persona.png, id=460, 1835.85875pt x 1335.99126pt>
+                                    [28 <./img/personas/Stefano_iamunno_persona.png>]
+<img/personas/Maria_colombo_persona.png, id=570, 1835.85875pt x 1335.99126pt>
 File: img/personas/Maria_colombo_persona.png Graphic file (type png)
 <use img/personas/Maria_colombo_persona.png>
 Package pdftex.def Info: img/personas/Maria_colombo_persona.png  used on input line 332.
@@ -858,22 +885,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has
 <to be read again> 
                    \relax 
 l.333   \caption{User persona n.3.}
-                                    [28 <./img/personas/Maria_colombo_persona.png>]
+                                    [29 <./img/personas/Maria_colombo_persona.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 339--347
 
  []
 
-[29]
-<img/varie/valutatori.jpeg, id=474, 377.41pt x 329.23pt>
+[30]
+<img/varie/valutatori.jpeg, id=586, 377.41pt x 329.23pt>
 File: img/varie/valutatori.jpeg Graphic file (type jpg)
 <use img/varie/valutatori.jpeg>
 Package pdftex.def Info: img/varie/valutatori.jpeg  used on input line 362.
 (pdftex.def)             Requested size: 264.1852pt x 230.45941pt.
- [30 <./img/varie/valutatori.jpeg>]) [31]
+ [31 <./img/varie/valutatori.jpeg>]) [32]
 \openout2 = `Sezioni/SpecificaDeiRequisiti.aux'.
 
  (./Sezioni/SpecificaDeiRequisiti.tex
-<img/class_diagrams/generalClassDiagram.png, id=491, 554.82281pt x 557.83406pt>
+<img/class_diagrams/generalClassDiagram.png, id=602, 554.82281pt x 557.83406pt>
 File: img/class_diagrams/generalClassDiagram.png Graphic file (type png)
 <use img/class_diagrams/generalClassDiagram.png>
 Package pdftex.def Info: img/class_diagrams/generalClassDiagram.png  used on input line 12.
@@ -882,12 +909,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has
 <to be read again> 
                    \relax 
 l.13   \caption{Class diagram delle entità}
-                                             [32
+                                             [33
 
 
 
  <./img/class_diagrams/generalClassDiagram.png (PNG copy)>]
-<img/class_diagrams/gestioneMenu_class_diagram.png, id=500, 922.19531pt x 344.78813pt>
+<img/class_diagrams/gestioneMenu_class_diagram.png, id=611, 922.19531pt x 344.78813pt>
 File: img/class_diagrams/gestioneMenu_class_diagram.png Graphic file (type png)
 <use img/class_diagrams/gestioneMenu_class_diagram.png>
 Package pdftex.def Info: img/class_diagrams/gestioneMenu_class_diagram.png  used on input line 21.
@@ -901,8 +928,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has
 <to be read again> 
                    \relax 
 l.22 ...on{Class diagram della gestione del menù}
-                                                   [33 <./img/class_diagrams/gestioneMenu_class_diagram.png (PNG copy)>]
-<img/class_diagrams/creazioneUtenza_class_diagram.png, id=506, 424.58624pt x 222.07968pt>
+                                                   [34 <./img/class_diagrams/gestioneMenu_class_diagram.png (PNG copy)>]
+<img/class_diagrams/creazioneUtenza_class_diagram.png, id=617, 424.58624pt x 222.07968pt>
 File: img/class_diagrams/creazioneUtenza_class_diagram.png Graphic file (type png)
 <use img/class_diagrams/creazioneUtenza_class_diagram.png>
 Package pdftex.def Info: img/class_diagrams/creazioneUtenza_class_diagram.png  used on input line 30.
@@ -912,7 +939,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has
                    \relax 
 l.31 ...ion{Class diagram per la creazione utenze}
                                                   
-<img/class_diagrams/accessoCambioPassword_class_diagram.png, id=507, 758.08218pt x 484.05844pt>
+<img/class_diagrams/accessoCambioPassword_class_diagram.png, id=618, 758.08218pt x 484.05844pt>
 File: img/class_diagrams/accessoCambioPassword_class_diagram.png Graphic file (type png)
 <use img/class_diagrams/accessoCambioPassword_class_diagram.png>
 Package pdftex.def Info: img/class_diagrams/accessoCambioPassword_class_diagram.png  used on input line 37.
@@ -922,7 +949,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has
                    \relax 
 l.38 ...ass diagram dell'accesso alla piattaforma}
                                                   
-<img/class_diagrams/gestioneTavoli_class_diagram.png, id=508, 746.03719pt x 534.49687pt>
+<img/class_diagrams/gestioneTavoli_class_diagram.png, id=619, 746.03719pt x 534.49687pt>
 File: img/class_diagrams/gestioneTavoli_class_diagram.png Graphic file (type png)
 <use img/class_diagrams/gestioneTavoli_class_diagram.png>
 Package pdftex.def Info: img/class_diagrams/gestioneTavoli_class_diagram.png  used on input line 44.
@@ -931,8 +958,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has
 <to be read again> 
                    \relax 
 l.45 ...n{Class diagram della gestione dei tavoli}
-                                                   [34 <./img/class_diagrams/creazioneUtenza_class_diagram.png (PNG copy)> <./img/class_diagrams/accessoCambioPassword_class_diagram.png (PNG copy)>] [35 <./img/class_diagrams/gestioneTavoli_class_diagram.png (PNG copy)>]
-<img/class_diagrams/gestioneNotifiche_class_diagram.png, id=519, 752.8125pt x 295.85532pt>
+                                                   [35 <./img/class_diagrams/creazioneUtenza_class_diagram.png (PNG copy)> <./img/class_diagrams/accessoCambioPassword_class_diagram.png (PNG copy)>] [36 <./img/class_diagrams/gestioneTavoli_class_diagram.png (PNG copy)>]
+<img/class_diagrams/gestioneNotifiche_class_diagram.png, id=631, 752.8125pt x 295.85532pt>
 File: img/class_diagrams/gestioneNotifiche_class_diagram.png Graphic file (type png)
 <use img/class_diagrams/gestioneNotifiche_class_diagram.png>
 Package pdftex.def Info: img/class_diagrams/gestioneNotifiche_class_diagram.png  used on input line 52.
@@ -941,8 +968,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has
 <to be read again> 
                    \relax 
 l.53 ...ss diagram della gestione delle notifiche}
-                                                   [36 <./img/class_diagrams/gestioneNotifiche_class_diagram.png (PNG copy)>]
-<img/sequence/creazionePiatto_sequence_diagram.png, id=526, 601.4972pt x 516.42938pt>
+                                                   [37 <./img/class_diagrams/gestioneNotifiche_class_diagram.png (PNG copy)>]
+<img/sequence/creazionePiatto_sequence_diagram.png, id=637, 601.4972pt x 516.42938pt>
 File: img/sequence/creazionePiatto_sequence_diagram.png Graphic file (type png)
 <use img/sequence/creazionePiatto_sequence_diagram.png>
 Package pdftex.def Info: img/sequence/creazionePiatto_sequence_diagram.png  used on input line 62.
@@ -961,8 +988,8 @@ Overfull \hbox (37.61993pt too wide) in paragraph at lines 70--71
  [][] 
  []
 
-[37 <./img/sequence/creazionePiatto_sequence_diagram.png (PNG copy)>] [38]
-<img/sequence/creazioneNotifica_sequence_diagraem.png, id=539, 510.40688pt x 395.22656pt>
+[38 <./img/sequence/creazionePiatto_sequence_diagram.png (PNG copy)>] [39]
+<img/sequence/creazioneNotifica_sequence_diagraem.png, id=650, 510.40688pt x 395.22656pt>
 File: img/sequence/creazioneNotifica_sequence_diagraem.png Graphic file (type png)
 <use img/sequence/creazioneNotifica_sequence_diagraem.png>
 Package pdftex.def Info: img/sequence/creazioneNotifica_sequence_diagraem.png  used on input line 78.
@@ -972,25 +999,211 @@ Overfull \hbox (15.78346pt too wide) in paragraph at lines 78--79
  [][] 
  []
 
-[39 <./img/sequence/creazioneNotifica_sequence_diagraem.png (PNG copy)>]) [40] 
+[40 <./img/sequence/creazioneNotifica_sequence_diagraem.png (PNG copy)>]
+<img/stateChart/gestioneNotifiche_state_chart.png, id=657, 727.21687pt x 283.81032pt>
+File: img/stateChart/gestioneNotifiche_state_chart.png Graphic file (type png)
+<use img/stateChart/gestioneNotifiche_state_chart.png>
+Package pdftex.def Info: img/stateChart/gestioneNotifiche_state_chart.png  used on input line 89.
+(pdftex.def)             Requested size: 436.33348pt x 170.28749pt.
+ [41 <./img/stateChart/gestioneNotifiche_state_chart.png (PNG copy)>]
+<img/stateChart/gestioneMenu_state_chart.png, id=664, 1212.53pt x 265.99374pt>
+File: img/stateChart/gestioneMenu_state_chart.png Graphic file (type png)
+<use img/stateChart/gestioneMenu_state_chart.png>
+Package pdftex.def Info: img/stateChart/gestioneMenu_state_chart.png  used on input line 98.
+(pdftex.def)             Requested size: 485.00342pt x 106.3956pt.
+
+Overfull \hbox (41.42494pt too wide) in paragraph at lines 98--99
+ [][] 
+ []
+
+[42 <./img/stateChart/gestioneMenu_state_chart.png>]
+<img/stateChart/gestioneTavoli_state_chart.png, id=672, 566.115pt x 511.15968pt>
+File: img/stateChart/gestioneTavoli_state_chart.png Graphic file (type png)
+<use img/stateChart/gestioneTavoli_state_chart.png>
+Package pdftex.def Info: img/stateChart/gestioneTavoli_state_chart.png  used on input line 107.
+(pdftex.def)             Requested size: 339.67162pt x 306.69817pt.
+ [43 <./img/stateChart/gestioneTavoli_state_chart.png (PNG copy)>]
+<img/stateChart/creazioneUtenza_state_chart.png, id=679, 387.69844pt x 284.56313pt>
+File: img/stateChart/creazioneUtenza_state_chart.png Graphic file (type png)
+<use img/stateChart/creazioneUtenza_state_chart.png>
+Package pdftex.def Info: img/stateChart/creazioneUtenza_state_chart.png  used on input line 116.
+(pdftex.def)             Requested size: 310.15916pt x 227.6508pt.
+ [44 <./img/stateChart/creazioneUtenza_state_chart.png (PNG copy)>]
+<img/stateChart/login_state_chart.png, id=687, 858.95906pt x 487.8225pt>
+File: img/stateChart/login_state_chart.png Graphic file (type png)
+<use img/stateChart/login_state_chart.png>
+Package pdftex.def Info: img/stateChart/login_state_chart.png  used on input line 123.
+(pdftex.def)             Requested size: 429.47849pt x 243.91064pt.
+) [45 <./img/stateChart/login_state_chart.png (PNG copy)>]
+\openout2 = `Sezioni/DesignDelSistema.aux'.
+
+ (./Sezioni/DesignDelSistema.tex
+<img/architectureDesign/Architecture.png, id=695, 525.965pt x 315.1775pt>
+File: img/architectureDesign/Architecture.png Graphic file (type png)
+<use img/architectureDesign/Architecture.png>
+Package pdftex.def Info: img/architectureDesign/Architecture.png  used on input line 7.
+(pdftex.def)             Requested size: 420.77255pt x 252.14233pt.
+ [46
+
+
+
+ <./img/architectureDesign/Architecture.png>]
+<img/architectureDesign/AWS.png, id=704, 949.5475pt x 434.62375pt>
+File: img/architectureDesign/AWS.png Graphic file (type png)
+<use img/architectureDesign/AWS.png>
+Package pdftex.def Info: img/architectureDesign/AWS.png  used on input line 21.
+(pdftex.def)             Requested size: 427.29242pt x 195.57887pt.
+ [47 <./img/architectureDesign/AWS.png>] [48] [49]) [50]
+\openout2 = `Sezioni/Testing.aux'.
+
+ (./Sezioni/Testing.tex (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\OT1/cmr/bx/n/10 Nome
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\OT1/cmr/bx/n/10 Denominazione
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\OT1/cmr/bx/n/10 Tipo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]|\OT1/cmr/bx/n/10 Esempio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[]|\OT1/cmr/bx/n/10 Validit^^Ra
+ []
+
+[51
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/bx/n/10 Nome
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/bx/n/10 Denominazione
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/bx/n/10 Tipo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+[]|\OT1/cmr/bx/n/10 Esempio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[]|\OT1/cmr/bx/n/10 Validit^^Ra
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]|\OT1/cmr/bx/n/10 Nome
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]|\OT1/cmr/bx/n/10 Denominazione
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]|\OT1/cmr/bx/n/10 Tipo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--109
+[]|\OT1/cmr/bx/n/10 Esempio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+[]|\OT1/cmr/bx/n/10 Validit^^Ra
+ []
+
+
+Overfull \hbox (3.84462pt too wide) in paragraph at lines 124--124
+[]|\OT1/cmr/m/n/10 creatoreEmail| 
+ []
+
+[52] [53] [54] [55] [56] [57] [58] [59] [60]
+<img/whiteBox/createOrder.png, id=1229, 253.94875pt x 445.665pt>
+File: img/whiteBox/createOrder.png Graphic file (type png)
+<use img/whiteBox/createOrder.png>
+Package pdftex.def Info: img/whiteBox/createOrder.png  used on input line 518.
+(pdftex.def)             Requested size: 203.15926pt x 356.53249pt.
+ [61 <./img/whiteBox/createOrder.png>] [62]
+<img/whiteBox/deleteDish.png, id=1300, 233.87375pt x 345.29pt>
+File: img/whiteBox/deleteDish.png Graphic file (type png)
+<use img/whiteBox/deleteDish.png>
+Package pdftex.def Info: img/whiteBox/deleteDish.png  used on input line 590.
+(pdftex.def)             Requested size: 187.09923pt x 276.23236pt.
+ [63 <./img/whiteBox/deleteDish.png>] [64] [65]
+<img/log/logBack1.png, id=1386, 325.96782pt x 22.58438pt>
+File: img/log/logBack1.png Graphic file (type png)
+<use img/log/logBack1.png>
+Package pdftex.def Info: img/log/logBack1.png  used on input line 702.
+(pdftex.def)             Requested size: 260.7746pt x 18.0675pt.
+<img/log/logBack2.png, id=1387, 551.81157pt x 27.10126pt>
+File: img/log/logBack2.png Graphic file (type png)
+<use img/log/logBack2.png>
+Package pdftex.def Info: img/log/logBack2.png  used on input line 703.
+(pdftex.def)             Requested size: 441.44986pt x 21.68102pt.
+<img/log/logBack3.png, id=1388, 262.73157pt x 19.57312pt>
+File: img/log/logBack3.png Graphic file (type png)
+<use img/log/logBack3.png>
+Package pdftex.def Info: img/log/logBack3.png  used on input line 704.
+(pdftex.def)             Requested size: 210.18552pt x 15.6585pt.
+<img/log/logBack4.png, id=1389, 515.67656pt x 21.83156pt>
+File: img/log/logBack4.png Graphic file (type png)
+<use img/log/logBack4.png>
+Package pdftex.def Info: img/log/logBack4.png  used on input line 705.
+(pdftex.def)             Requested size: 412.5418pt x 17.46526pt.
+<img/log/logFront1.png, id=1390, 215.30438pt x 18.82031pt>
+File: img/log/logFront1.png Graphic file (type png)
+<use img/log/logFront1.png>
+Package pdftex.def Info: img/log/logFront1.png  used on input line 711.
+(pdftex.def)             Requested size: 172.24373pt x 15.05624pt.
+<img/log/logFront2.png, id=1391, 506.6428pt x 23.33719pt>
+File: img/log/logFront2.png Graphic file (type png)
+<use img/log/logFront2.png>
+Package pdftex.def Info: img/log/logFront2.png  used on input line 712.
+(pdftex.def)             Requested size: 405.31479pt x 18.66975pt.
+) [66 <./img/log/logBack1.png (PNG copy)> <./img/log/logBack2.png (PNG copy)> <./img/log/logBack3.png (PNG copy)> <./img/log/logBack4.png (PNG copy)> <./img/log/logFront1.png (PNG copy)> <./img/log/logFront2.png (PNG copy)>] 
 AED: lastpage setting LastPage
-(./main.aux (./Sezioni/FronteSpizio.aux) (./Sezioni/Glossario.aux) (./Sezioni/Presentazione.aux) (./Sezioni/ModelloFunzionale.aux) (./Sezioni/SpecificaDeiRequisiti.aux))
+(./main.aux (./Sezioni/FronteSpizio.aux) (./Sezioni/Glossario.aux) (./Sezioni/Presentazione.aux) (./Sezioni/ModelloFunzionale.aux) (./Sezioni/SpecificaDeiRequisiti.aux) (./Sezioni/DesignDelSistema.aux) (./Sezioni/Testing.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E9704EA8981B9DF3634139B7A46E2891;7714.
+(rerunfilecheck)             Checksum: E224138548D9B5AE86632BDC2D993747;11119.
  ) 
 Here is how much of TeX's memory you used:
- 22763 strings out of 478287
- 446660 string characters out of 5849290
- 722014 words of memory out of 5000000
- 40393 multiletter control sequences out of 15000+600000
- 472660 words of font info for 39 fonts, out of 8000000 for 9000
+ 25496 strings out of 478287
+ 489248 string characters out of 5849290
+ 1129330 words of memory out of 5000000
+ 42443 multiletter control sequences out of 15000+600000
+ 473436 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,104p,841b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (41 pages, 2246992 bytes).
+ 99i,13n,104p,841b,1873s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (67 pages, 2699663 bytes).
 PDF statistics:
- 627 PDF objects out of 1000 (max. 8388607)
- 519 compressed objects within 6 object streams
- 146 named destinations out of 1000 (max. 500000)
- 497 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1610 PDF objects out of 1728 (max. 8388607)
+ 1444 compressed objects within 15 object streams
+ 773 named destinations out of 1000 (max. 500000)
+ 740 words of extra memory for PDF output out of 10000 (max. 10000000)
 
