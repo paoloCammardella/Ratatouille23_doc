@@ -44,22 +44,24 @@ public class ChangePasswordBBT {
 
     @Test
     public void changePassword_A1_B1(){
-        assertThrows(UsernameNotFoundException.class, () ->{
+        assertThrows(RuntimeException.class, () ->{
         employeeServiceImpl.changePassword(null, null);
     });
     }
-
+\end{lstlisting}
+\newpage
+\begin{lstlisting}[language=java]
     @Test
     public void changePassword_A1_B2(){
         String email = "paolo";
-        assertThrows(UsernameNotFoundException.class, () ->{
+        assertThrows(RuntimeException.class, () ->{
             employeeServiceImpl.changePassword(null, email);
         });
     }
     @Test
     public void changePassword_A2_B1(){
         String password= "null";
-        assertThrows(UsernameNotFoundException.class, () ->{
+        assertThrows(RuntimeException.class, () ->{
             employeeServiceImpl.changePassword(password, null);
         });
     }
@@ -127,7 +129,6 @@ Il valore non valido per i campi di entrambi gli oggetti, è \textbf{null}, quel
     \end{tabular}
   \end{table}
   
-\newpage
 \begin{lstlisting}[language=java]
 @ExtendWith(MockitoExtension.class)
 @ExtendWith(SpringExtension.class)
@@ -169,7 +170,9 @@ public class HideNotificationBBT {
         when(notificationRepository.findByTitleAndTextAndCreatorEmailAndDate(notification.getTitle(), notification.getText(), notification.getCreatorEmail(), notification.getDate())).thenReturn(notification);
     }
 
-
+\end{lstlisting}
+\newpage
+\begin{lstlisting}[language=java]
     @Test
     public void testHideNotificationA1_B1_C1_D1_E1() {
         employee.setName(null);
@@ -217,6 +220,9 @@ public class HideNotificationBBT {
             notificationServiceImpl.hideNotification(notification, employee);
         });
     }
+\end{lstlisting}
+\newpage
+\begin{lstlisting}[language=java]
 
     @Test
     public void testHideNotificationA1_B1_C2_D1_E1() {
@@ -379,6 +385,9 @@ public class HideNotificationBBT {
             notificationServiceImpl.hideNotification(notification, employee);
         });
     }
+\end{lstlisting}
+\newpage
+\begin{lstlisting}[language=java]
 
     @Test
     public void testHideNotificationA2_B1_C1_D2_E2() {
@@ -486,7 +495,9 @@ public class HideNotificationBBT {
             notificationServiceImpl.hideNotification(notification, employee);
         });
     }
-
+\end{lstlisting}
+\newpage
+\begin{lstlisting}[language=java]
     @Test
     public void testHideNotificationA2_B2_C2_D2_E2() {
         NotificationResponseDTO response = notificationServiceImpl.hideNotification(notification, employee);
@@ -611,6 +622,9 @@ public class DeleteDishWBT {
     private CategoryRepository categoryRepository;
     @Mock
     private CategoryService categoryService;
+\end{lstlisting}
+\newpage
+\begin{lstlisting}[language=java]
 
     @Test
     public void testDeleteDish1(){

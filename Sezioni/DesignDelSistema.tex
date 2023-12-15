@@ -1,7 +1,7 @@
 \section{Design del sistema}
 In questa fase viene analizzato il software sviluppato, dando importanza all'architettura del progetto, le tecnologie utilizzate e i motivi per cui le abbiamo utilizzate, i diagrammi delle classi ed i diagrammi di sequenza dei punti scelti dal team.
 \subsection{Analisi architetturale}
-Questo progetto è basato sull'architettura \textbf{client-server}, è l'architettura più semplice, basata su un server ed un numero arbitrario di client. In quest'architettura i client conoscono tutti i dettagli del server (i servizi), si connettono ad esso e mandando delle richieste (HTTP), sono strettamente dipendenti da esso, infatti, in caso di modifica al server, necessitano di essere ricompilati, mentre il server risponde solo alle richieste che gli arrivano, non curandosi del tipo di client che le invia. 
+Questo progetto è basato sull'architettura \textbf{client-server}, è l'architettura più semplice, basata su un server ed un numero arbitrario di client. In quest'architettura i client conoscono tutti i dettagli del server (i servizi), si connettono ad esso e mandando delle richieste (HTTP), sono strettamente dipendenti da esso, infatti, in caso di modifica al server, necessitano di essere ricompilati, mentre il server risponde solo alle richieste che gli arrivano, non curandosi del tipo di client che le invia.
 \begin{figure}[H]
   \centering
   \includegraphics[scale=0.8]{img/architectureDesign/Architecture.png}
@@ -21,11 +21,11 @@ Per garantire una fruibilità maggiore ai client, abbiamo deciso di utilizzare t
   \includegraphics[scale=0.45]{img/architectureDesign/AWS.png}
   \caption{Architettura cloud}
 \end{figure}
-Nel nostro caso, abbiamo deciso di suddividiere la parte back-end in docker separati (postgreSQL, springboot), su macchina \textbf{EC2} fornita da \textbf{AWS}, questo ci permette di avere un sistema nel complesso più modulare e scalabile, garantendo anche la possibilità di avere aggiornamenti futuri, senza stravolgere l'esperienza dell'utente. 
+Nel nostro caso, abbiamo deciso di suddividiere la parte back-end in docker separati (postgreSQL, springboot), su macchina \textbf{EC2} fornita da \textbf{AWS}, questo ci permette di avere un sistema nel complesso più modulare e scalabile, garantendo anche la possibilità di avere aggiornamenti futuri, senza stravolgere l'esperienza dell'utente.
 \newpage
 \subsection{Tecnologie utilizzate}
 Le tecnologie utilizzate per lo sviluppo di questo progetto sono molteplici, divise in:\\
- progettazione, sviluppo, sviluppo della documentazione e testing.
+progettazione, sviluppo, sviluppo della documentazione e testing.
 \subsubsection{Progettazione}
 \paragraph{Figma} per la progettazione dell'interfaccia grafica, lo sviluppo delle personas e la creazione del brand, ci siamo affidati a figma. Figma è un tool gratuito per la progettazione di interfacce e prototipi, può essere utilizzato sia per la progettazioni di interfacce mobile che web.
 \paragraph{Visual paradigm} è tool gratuito che permette di creare diversi tipi di diagrammi. \`{E} stato utilizzato per lo sviluppo dei class diagram, sequence diagram e state chart.
@@ -34,7 +34,7 @@ Le tecnologie utilizzate per lo sviluppo di questo progetto sono molteplici, div
 \paragraph{Springboot} è un framework Java, molto affidabile, semplice da implementare e robusto. Utilizzato per lo sviluppo del back-end.
 \paragraph{PostgreSQL} è un database relazionale. Utilizzato per creare relazioni tra gli oggetti.
 \paragraph{Android} è il sistema operativo di Google, utilizzato per lo sviluppo del client.
-\paragraph{Retrofit} è un gestore di chiamate HTTP lato client. Utilizzato per ricevere e mandare richieste HTTP dal client al back-end. 
+\paragraph{Retrofit} è un gestore di chiamate HTTP lato client. Utilizzato per ricevere e mandare richieste HTTP dal client al back-end.
 \paragraph{JWT} è uno standard, utilizzato per garantire un layer aggiuntivo di sicurezza al nostro progetto.
 \paragraph{AWS} è un servizio cloud offerto da amazon.
 \paragraph{EC2} è un servizio offerto da AWS. Utilizzato per la pubblicazione del back-end in cloud.
@@ -46,7 +46,68 @@ Le tecnologie utilizzate per lo sviluppo di questo progetto sono molteplici, div
 \subsubsection{Testing}
 \paragraph{Mockito} è un framework che permette di "mockare" gli oggetti della nostra applicazione, ovvero, permette di simulare degli oggetti (nel nostro caso, sono stati utilizzati per il testing).
 \paragraph{JUnit} è un framework Java utilizzato per testare la nostra applicazione.
- \newpage
+\newpage
 \subsection{Class diagram - Desgin}
+In questa sezione verranno mostrati i class diagram di design. In questi class diagram abbiamo ritenuto fosse possibile tralasciare i getters, setters e i metodi proprietari di Android (e.g. onCreate(), onViewCreated() etc.).
+\subsubsection{Class diagram - Login e cambio password}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.8]{img/class_diagrams_design/loginNUpdatePassword.png}
+  \caption{Class diagram login e cambio password}
+\end{figure}
+\newpage
+\subsubsection{Class diagram - Creazione utenza}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.8]{img/class_diagrams_design/addEmployee.png}
+  \caption{Class diagram creazione utenza}
+\end{figure}
+\newpage
+\subsubsection{Class diagram - Notifiche}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.44]{img/class_diagrams_design/notification.png}
+  \caption{Class diagram delle notifiche}
+\end{figure}
+\newpage
+
+\subsubsection{Class diagram - Menù}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.5]{img/class_diagrams_design/menu.png}
+  \caption{Class diagram del menù}
+\end{figure}
+\newpage
+
+\subsubsection{Class diagram - Tavoli}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.28]{img/class_diagrams_design/Tavoli.png}
+  \caption{Class diagram dei tavoli}
+\end{figure}
 \newpage
 \subsection{Sequence diagram - Design}
+In questa sezione vengono analizzati i \textit{sequence diagram} per due dei casi d'uso signficativi, in particolare quello per la creazione di un utenza e quello relativo alla gestione delle notifiche.
+\subsubsection{Sequence diagram - Creazione utenza}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{img/sequence_diagram_design/creazioneUtenza.png}
+  \caption{Sequence diagram per la creazione di un utenza}
+\end{figure}
+\newpage
+
+\subsubsection{Sequence diagram - Creazione notifica}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{img/sequence_diagram_design/creazioneNotifica.png}
+  \caption{Sequence diagram per la creazione di una notifica}
+\end{figure}
+\newpage
+
+\subsubsection{Sequence diagram - Visualizzazione notifica}
+\begin{figure}[H]
+  \centering
+  \includegraphics[scale=0.6]{img/sequence_diagram_design/hideNotification.png}
+  \caption{Sequence diagram per la visualizzazione di una notifica}
+\end{figure}
+\newpage
